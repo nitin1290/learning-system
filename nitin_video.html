@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+   <title>N_learning_freeindia: video</title>
+  <link rel="stylesheet" href="nitin_video.css">
+  <link rel = "icon" href ="uplogo.png" type = "image/x-icon">
+  </head>
+  <body>
+    <div class="upperoption">
+     <img src="logo.png" alt="" class="logo">
+     <img src="glasseslogo.png" alt="" class="logoglass">
+     <div class="home">
+       <img src="home.png" alt="" class="homelogo">
+         <p><a href="nitin.html" class="homep">Home</a></p>
+     </div>
+     <div class="video">
+       <img src="video.png" alt="" class="videologo">
+         <p class="videop">video</p>
+     </div>
+     <div class="live" onclick="live()">
+       <img src="live.png" alt="" class="livelogo">
+         <p class="livep">Go live</p>
+     </div>
+
+     <div class="Contact" >
+         <div class="Contact_us" >
+           <ul >
+           <li>Contact us
+             <ul class="Contact_us_part">
+               <li><img src="email.png" alt=""></li>
+               <li><img src="call.png" alt=""></li>
+               <li><img src="video_call.png" alt=""></li>
+               </ul>
+             </li>
+       </div>
+    </div>
+       <div class="sign_in" onclick="myfunction1()" ondblclick="myfunction11()">
+         <!-- <img src="live.png" alt="" class="livelogo"> -->
+           <p class="sign_inp">Sign in</p>
+       </div>
+       <div class="sign_up" onclick="myfunction2()" ondblclick="myfunction22()">
+         <!-- <img src="live.png" alt="" class="livelogo"> -->
+           <p class="sign_upp">Sign up</p>
+       </div>
+    </div>
+
+
+    <div class="sign_up_left" id="sign_up">
+
+    <div class="up_fullname_div">
+    <input type="text" name="" value="" placeholder="Enter fullname" class="up_fullname">
+    </div>
+    <div class="up_email_div">
+    <input type="email" name="" value="" placeholder="Enter email id" class="up_email">
+    </div>
+    <div class="up_phone_div">
+    <input type="number" name="" value="" placeholder="Enter Phone no." class="up_phone">
+    </div>
+    <div class="up_password_div1">
+    <input type="password" name="" value="" placeholder="Create password" class="up_password_1" id="up_password">
+    <div class="up_hide" onclick="myfunction_up()"><img src="up_hide.png" alt="" id="up_hide_id" style="width:16px;"></div>
+    <div class="up_eye" onclick="myfunction_up()"><img src="up_eye.png" alt="" id="up_eye_open_id" style="width:16px;"></div>
+    </div>
+    <div class="up_password_div2">
+    <input type="password" name="" value="" placeholder="Coform password" class="up_password_2" id="up_password2">
+    <div class="up_hide" onclick="myfunction_up2()"><img src="up_hide.png" alt="" id="up_hide_id2" style="width:16px;"></div>
+    <div class="up_eye" onclick="myfunction_up2()"><img src="up_eye.png" alt="" id="up_eye_open_id2" style="width:16px;"></div>
+    </div>
+    <button type="button" name="button" class="next">Next</button>
+    <input type="checkbox" name="" value="" class="checkbox_tc">
+    <div class="checkbox_p">
+      <p class="checkbox_p_term">By clicking this you<br> agrey to our all<br> <p style="color:blue;position: absolute;top:30px;font-family:monospace;"><a href="#">Terms & Conditions.</a></p></p>
+    </div>
+    </div>
+    <div class="sign_in_left" id="sign_in">
+        <img src="important_mail.png" alt="" style="position:absolute;top:62px;left:10px;z-index:1; width:18px">
+        <img src="password_key.png" alt="" style="position:absolute;top:122px;left:10px;z-index:1; width:18px">
+    <div class="email_main">
+    <input type="email" name="" value="" placeholder="E-mail" class="email" id="email">
+    </div>
+    <div class="password_main">
+    <input type="password" name="" value="" placeholder="Password" class="password" id="myInput" >
+    <div class="hide" onclick="myfunction()"><img src="hide.png" alt="" id="hide" style="width:16px;"></div>
+    <div class="eye" onclick="myfunction()"><img src="eye_open.png" alt="" id="eye_open" style="width:16px;"></div>
+    <div class="password_show">
+      <p>( Password should contain at lest 8 character )</p>
+    </div>
+    </div>
+    <button type="button" name="button" class="in_sign_in" onclick="signin()">Sign in</button>
+    </div>
+
+   <div class="video_border">
+     <iframe class="video_1" width="900" height="506" src="https://www.youtube.com/embed/t2EyujS1Yv8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen  id="video1"></iframe>
+   <img src="thumbs_up.png" alt="" class="thumbs_up" onclick="thumbs_up()" id="thumbs_up">
+  <img src="thumbs_up1.png" alt="" class="thumbs_up1" onclick="thumbs_up1()" id="thumbs_up1">
+  <img src="thumbs_down.png" alt="" class="thumbs_down" onclick="thumbs_down()" id="thumbs_down">
+  <img src="thumbs_down1.png" alt="" class="thumbs_down1" onclick="thumbs_down1()" id="thumbs_down1">
+  <a href="https://web.whatsapp.com/"><img src="share.png" alt="" class="share"></a>
+  <img src="save.png" alt="" class="save" id="save" onclick="save()">
+  <p class="thumb_p">Part-1</p>
+  <button type="button" name="button1" class="part-1" id="part-1" onclick="video1()" value=""><b><b>></b></b></button>
+  <button type="button" name="button1" class="part-2" id="part-2" onclick="video11()" value=""><b><b><</b></b></button></button>
+  <button type="button" name="button1" class="part-3" id="part-3" onclick="video2()" value="next"><b><b>></b></b></button>
+  <button type="button" name="button1" class="part-21" id="part-21" onclick="video21()" value="previous"><b><b><</b></b></button>
+  <button type="button" name="button1" class="part-4" id="part-4" onclick="video3()" value="next"><b><b>></b></b></button>
+  <button type="button" name="button1" class="part-31" id="part-31" onclick="video32()" value="previous"><b><b><</b></b></button>
+  <button type="button" name="button1" class="part-5" id="part-5" onclick="video4()" value="next"><b><b>></b></b></button>
+  <button type="button" name="button1" class="part-41" id="part-41" onclick="video43()" value="previous"><b><b><</b></b></button>
+  <button type="button" name="button1" class="part-6" id="part-6" onclick="video5()" value="next"><b><b>></b></b></button>
+  <button type="button" name="button1" class="part-51" id="part-51" onclick="video54()" value="previous"><b><b><</b></b></button>
+  <button type="button" name="button1" class="part-7" id="part-7" onclick="video6()" value="next"><b><b>></b></b></button>
+  <button type="button" name="button1" class="part-61" id="part-61" onclick="video65()" value="previous"><b><b><</b></b></button>
+  <button type="button" name="button1" class="part-8" id="part-8" onclick="video7()" value="next"><b><b>></b></b></button>
+  <button type="button" name="button1" class="part-71" id="part-71" onclick="video76()" value="previous"><b><b><</b></b></button>
+  <button type="button" name="button1" class="part-9" id="part-9" onclick="video8()" value="next"><b><b>></b></b></button>
+  <button type="button" name="button1" class="part-81" id="part-81" onclick="video87()" value="previous"><b><b><</b></b></button>
+  <button type="button" name="button1" class="part-9" id="part-9" onclick="video8()" value="next"><b><b>></b></b></button>
+  <button type="button" name="button1" class="part-81" id="part-81" onclick="video87()" value="previous"><b><b><</b></b></button>
+  <button type="button" name="button1" class="part-10" id="part-10" onclick="video9()" value="next"><b><b>></b></b></button>
+  <button type="button" name="button1" class="part-91" id="part-91" onclick="video98()" value="previous"><b><b><</b></b></button>
+  <button type="button" name="button1" class="part-11" id="part-11" onclick="video10()" value="next"><b><b>></b></b></button>
+  <button type="button" name="button1" class="part-101" id="part-101" onclick="video109()" value="previous"><b><b><</b></b></button>
+
+  <input type="button" name="button2" class="Subscribe" id="Subscribe" onclick="SubscribeC( )" value="Subscribe">
+  <img src="user.png" alt="" class="user">
+  <input type="text" name="" value="" placeholder="Comment ......" class="comment" id="comment_v">
+  <input type="button" name="" value="Comment" class="comment_b" id="comment" onclick="comment()">
+  <div class="comment_out" id="comment1">
+
+  </div>
+
+     <iframe class="video_2"  width="958" height="506" src="https://www.youtube.com/embed/opaKQK1F8h4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen  id="video2"></iframe>
+
+     <iframe class="video_3" width="900" height="506" src="https://www.youtube.com/embed/qsSQLbm9jns" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video3"></iframe>
+
+     <iframe class="video_4" width="424" height="238" src="https://www.youtube.com/embed/dHjqQ82UA9I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video4"></iframe>
+
+    <iframe class="video_5" width="900" height="506" src="https://www.youtube.com/embed/15wIjEoBm4o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video5"></iframe>
+    <iframe class="video_6" width="959" height="506" src="https://www.youtube.com/embed/Ye43FbcVZQ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video6"></iframe>
+    <iframe class="video_7" width="900" height="506" src="https://www.youtube.com/embed/NM0oqeLJmmA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video7"></iframe>
+
+    <iframe id="video8" class="video_8" width="900" height="506" src="https://www.youtube.com/embed/9YuB4YOo3qM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe class="video_9" width="900" height="506" src="https://www.youtube.com/embed/rEvArAKQPkw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video9"></iframe>
+
+     <iframe class="video_10" width="1045" height="438" src="https://www.youtube.com/embed/qFkNATtc3mc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video10"></iframe>
+
+   </div>
+   <div class="footer" id="footer">
+
+     <p style="position:absolute;top:10px ;color:white;left: 10px;font-size:18px;font-family: Arial, Helvetica, sans-serif;">Follow us:</p>
+     <p style="position:absolute;top:10px;left:300px;color:white;font-size:18px;font-family: Arial, Helvetica, sans-serif;">Contact us:</p>
+     <p style="position:absolute;top:36px;left:300px;color:white;font-size:18px;">91+ 8761012548</p>
+     <p style="position:absolute;top:70px;left:300px;color:white;font-size:18px;font-family: Arial, Helvetica, sans-serif;">E-mail:</p>
+     <p style="position:absolute;top:92px;left:300px;color:white;font-size:18px;font-family: Arial, Helvetica, sans-serif;">snitin28@gmail.com</p>
+     <p style="position:absolute;top:10px;left:700px;color:white;font-size:18px;font-family: Arial, Helvetica, sans-serif;">Office-Address:</p>
+     <p style="position:absolute;top:36px;left:700px;color:white;font-size:18px;font-family: Arial, Helvetica, sans-serif;">Plot no. 18A<br>Law gate,<br>Phagwara, Punjab, India<br>144401</p>
+      <p style="position:absolute;top:10px;left:970px;color:white;font-size:18px;">It is private network<br>Please read all Terms and Conditions before Payment</p>
+       <p style="position:absolute;top:70px;left:970px;color:white;font-size:18px;font-family: Arial, Helvetica, sans-serif;">Link:</p>
+        <p style="position:absolute;top:92px;left:970px;color:white;font-size:18px;font-family: Arial, Helvetica, sans-serif;">www.India_car_rental.com</p>
+     <a href="https://www.gmail.com/mail/help/intl/en/about.html?utm_expid=..."><img src="email.png" alt="" style="position:absolute;width:30px;top:90px;left:10px;"></a>
+     <a href="https://twitter.com/login"><img src="tw.png" alt="" style="position:absolute; top:90px;left:60px;"></a>
+     <a href="https://www.facebook.com/?stype=lo&jlou=AfeolTKa9HuUTwkqgCpmVWGPFrqnMWQXcpo2GotkJZG3wIlYADZfsx2PkizaSkbqvsYRvKSfZpwWPBSumOfXRiaGIEjfpgBQ7xxUjrHSo6FMCQ&smuh=60324&lh=Ac96WsWa6NzQcHVY"><img src="fb.png" alt="" style="position:absolute;width:30px; top:90px;left:100px;"></a>
+     <a href="https://www.instagram.com/accounts/login/?hl=en"><img src="insta.png" alt="" style="position:absolute;width:30px; top:90px;left:140px;"></a>
+
+   </div>
+
+    <script src="nitin_video.js">
+
+    </script>
+  </body>
+</html>

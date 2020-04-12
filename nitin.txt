@@ -1,0 +1,4478 @@
+1
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>N_learning_freeindia: home</title>
+    <link rel="stylesheet" href="nitin.css">
+    <link rel = "icon" href ="uplogo.png" type = "image/x-icon">
+  </head>
+  <body>
+  <div class="upperoption">
+   <img src="logo.png" alt="" class="logo">
+   <img src="glasseslogo.png" alt="" class="logoglass">
+   <div class="home">
+     <img src="home.png" alt="" class="homelogo">
+       <p class="homep">Home</p>
+   </div>
+   <div class="video" onclick="video()">
+     <img src="video.png" alt="" class="videologo">
+       <p><a class="videop">video</a></p>
+   </div>
+   <div class="live" onclick="video()">
+     <img src="live.png" alt="" class="livelogo">
+       <p class="livep">Go live</p>
+   </div>
+
+   <div class="Contact" >
+       <div class="Contact_us" >
+         <ul >
+         <li>Contact us
+           <ul class="Contact_us_part">
+             <li><img src="email.png" alt=""></li>
+             <li><img src="call.png" alt=""></li>
+             <li><img src="video_call.png" alt=""></li>
+             </ul>
+           </li>
+     </div>
+  </div>
+     <div class="sign_in" onclick="myfunction1()">
+       <!-- <img src="live.png" alt="" class="livelogo"> -->
+         <p class="sign_inp">Sign in</p>
+     </div>
+     <div class="sign_up" onclick="myfunction2()">
+       <!-- <img src="live.png" alt="" class="livelogo"> -->
+         <p class="sign_upp">Sign up</p>
+     </div>
+  </div>
+
+
+  <div class="sign_up_left" id="sign_up">
+
+  <div class="up_fullname_div">
+  <input type="text" name="" value="" placeholder="Enter fullname" class="up_fullname">
+  </div>
+  <div class="up_email_div">
+  <input type="email" name="" value="" placeholder="Enter email id" class="up_email">
+  </div>
+  <div class="up_phone_div">
+  <input type="number" name="" value="" placeholder="Enter Phone no." class="up_phone">
+  </div>
+  <div class="up_password_div1">
+  <input type="password" name="" value="" placeholder="Create password" class="up_password_1" id="up_password">
+  <div class="up_hide" onclick="myfunction_up()"><img src="up_hide.png" alt="" id="up_hide_id" style="width:16px;"></div>
+  <div class="up_eye" onclick="myfunction_up()"><img src="up_eye.png" alt="" id="up_eye_open_id" style="width:16px;"></div>
+  </div>
+  <div class="up_password_div2">
+  <input type="password" name="" value="" placeholder="Coform password" class="up_password_2" id="up_password2">
+  <div class="up_hide" onclick="myfunction_up2()"><img src="up_hide.png" alt="" id="up_hide_id2" style="width:16px;"></div>
+  <div class="up_eye" onclick="myfunction_up2()"><img src="up_eye.png" alt="" id="up_eye_open_id2" style="width:16px;"></div>
+  </div>
+  <button type="button" name="button" class="next">Next</button>
+  <input type="checkbox" name="" value="" class="checkbox_tc">
+  <div class="checkbox_p">
+    <p class="checkbox_p_term">By clicking this you<br> agrey to our all<br> <p style="color:blue;position: absolute;top:30px;font-family:monospace;"><a href="#">Terms & Conditions.</a></p></p>
+  </div>
+  </div>
+  <div class="sign_in_left" id="sign_in">
+      <img src="important_mail.png" alt="" style="position:absolute;top:62px;left:10px;z-index:1; width:18px">
+      <img src="password_key.png" alt="" style="position:absolute;top:122px;left:10px;z-index:1; width:18px">
+  <div class="email_main">
+  <input type="email" name="" value="" placeholder="E-mail" class="email" id="email">
+  </div>
+  <div class="password_main">
+  <input type="password" name="" value="" placeholder="Password" class="password" id="myInput" >
+  <div class="hide" onclick="myfunction()"><img src="hide.png" alt="" id="hide" style="width:16px;"></div>
+  <div class="eye" onclick="myfunction()"><img src="eye_open.png" alt="" id="eye_open" style="width:16px;"></div>
+  <div class="password_show">
+    <p>( Password should contain at lest 8 character )</p>
+  </div>
+  </div>
+  <button type="button" name="button" class="in_sign_in" onclick="signin()">Sign in</button>
+  </div>
+
+
+<div class="thought">
+  <p><b>We belive free make people lazy so we charge just ₹50 for more attention.</b></p>
+</div>
+<div class="font">
+  <img src="font1.png" alt="" class="font1">
+  <img src="font2.png" alt="" class="font2">
+  <img src="font3.png" alt="" class="font3">
+</div>
+<button type="button" name="button" ><a href="nitincc.html" class="cyber" >Cyber security</a></button>
+<button type="button" name="button" ><a href="nitin_programmer.html" class="programmer">Programming</a></button>
+<button type="button" name="button" ><a href="nitin_web_designing.html" class="web_designing"> Web designing</a></button>
+
+
+
+
+
+
+
+<footer class="footer">
+
+</footer>
+
+
+<script src="nitin.js">
+
+</script>
+  </body>
+</html>
+
+1css
+
+
+
+
+.upperoption{
+  /* border: 1px solid black; */
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 50px;
+  width: 100%;
+  background-color: #992B11;
+  z-index: 1;
+}
+.logo{
+  position: fixed;
+  left: 15px;
+  top: 10px;
+}
+.logoglass{
+  position: fixed;
+  left: 33px;
+  top: 30px;
+  width: 20px;
+}
+.home{
+  /* border: 1px solid black; */
+  position: fixed;
+  left: 700px;
+  top: 10px;
+  width: 100px;
+  height: 30px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.homep{
+  position: fixed;
+  left: 730px;
+  top: 8px;
+  text-align: right;
+  margin: 10px;
+  font-family: sans-serif;
+  color: white;
+}
+.homelogo{
+  position: fixed;
+  left: 700px;
+  top: 5px;
+  margin: 10px;
+  width: 20px;
+}
+.video{
+  /* border: 1px solid black; */
+  position: fixed;
+  left: 805px;
+  top: 10px;
+  width: 100px;
+  height: 30px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.videop{
+  position: fixed;
+  left: 835px;
+  top: 8px;
+  text-align: right;
+  margin: 10px;
+  font-family: sans-serif;
+  color: white;
+  text-decoration: none;
+  outline: none;
+}
+.videologo{
+  position: fixed;
+  left: 805px;
+  top: 5px;
+  margin: 10px;
+  width: 20px;
+}
+.live{
+  /* border: 1px solid black; */
+  position: fixed;
+  left: 909px;
+  top: 10px;
+  width: 100px;
+  height: 30px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.livep{
+  position: fixed;
+  left: 939px;
+  top: 8px;
+  text-align: right;
+  margin: 10px;
+  font-family: sans-serif;
+  color: white;
+}
+.livelogo{
+  position: fixed;
+  left: 909px;
+  top: 5px;
+  margin: 10px;
+  width: 20px;
+}
+.Contact{
+  position:absolute;
+   left:1012px;
+   top:10px;
+}
+.Contact_us {
+  position: fixed;
+  display: inline-block;
+  text-align: center;
+}
+.Contact_us ul{
+  list-style: none;
+}
+.Contact_us li:hover{
+
+  /* background: #313131; */
+}
+.Contact_us > ul{
+
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.Contact_us  > ul  >li
+{
+    font-family: sans-serif;
+  position:relative;
+  cursor: pointer;
+  float:left;
+  font-size: 14px;
+  width:136px ;
+  height: 30px;
+  left: 0px;
+  top:0px;
+  width: 100px;
+  line-height: 30px;
+  /* text-align: center;*/
+}
+.Contact_us_part{
+  position: absolute;
+  top :30px;
+  left:0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+.Contact_us_part li{
+  background:#992B11 ;
+  display: none;
+}
+.Contact_us_part  li:hover{
+  /* background:yellow; */
+  /* color: yellow; */
+    box-shadow: 0px 0px 20px rgba(0, 20, 0, 0.8);
+}
+.Contact_us  li:hover > .Contact_us_part li{
+  display: block;
+}
+
+
+
+.sign_in{
+  /* border: 1px solid black; */
+  position: fixed;
+  left: 1316px;
+  top: 10px;
+  width: 100px;
+  height: 30px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.sign_inp{
+  position: fixed;
+  left: 1330px;
+  top: 8px;
+  text-align: center;
+  margin: 10px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.sign_up{
+  /* border: 1px solid black; */
+  position: fixed;
+  left: 1419px;
+  top: 10px;
+  width: 100px;
+  height: 30px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.sign_upp{
+  position: fixed;
+  left: 1433px;
+  top: 8px;
+  text-align: center;
+  margin: 10px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.sign_in_left{
+  /* border: 1px solid black; */
+  position: fixed;
+  top: 50px;
+  right: 0px;
+  width: 230px;
+  height: 670px;
+  background-color: #992B11;
+}
+.email_main{
+  position: absolute;
+  left: 15px;
+  top: 60px;
+  padding-left: 18px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: #992B11;
+  border-bottom: 1px solid white;
+  color: white;
+  outline: none;
+}
+.email{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding-left: 18px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: #992B11;
+  border-bottom: 1px solid white;
+  color: white;
+  outline: none;
+}
+.password_main{
+  position: absolute;
+  left: 15px;
+  top: 120px;
+  padding-left: 18px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: #992B11;
+  border-bottom: 1px solid white;
+  color: white;
+  text-decoration: none;
+  outline: none;
+}
+.password{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding-left: 18px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: #992B11;
+  border-bottom: 1px solid white;
+  color: white;
+  text-decoration: none;
+  outline: none;
+}
+.eye{
+  /* border: 1px solid black; */
+  position: absolute;
+  left: 170px;
+  cursor: pointer;
+}
+.hide{
+  /* border: 1px solid black; */
+  position: absolute;
+  left: 170px;
+  cursor: pointer;
+}
+.password_show{
+  position: absolute;
+  top: 12px;
+  left: 0px;
+  font-size: 13px;
+  font-family:inherit;
+}
+
+.in_sign_in{
+  position: absolute;
+  top: 200px;
+  left: 15px;
+  width: 200px;
+  height: 30px;
+  background-color: inherit;
+  border: none;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  color:  #3E3535;
+  border-radius: 5px;
+  outline: none;  
+}
+.in_sign_in:hover{
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+
+.sign_up_left{
+  /* border: 1px solid black; */
+  position: fixed;
+  top: 50px;
+  right: 0px;
+  width: 230px;
+  height: 670px;
+  background-color: #992B11;
+}
+.up_fullname_div{
+  position: absolute;
+  left: 15px;
+  top: 60px;
+  padding-left: 0px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: #992B11;
+  border-bottom: 1px solid white;
+  color: white;
+  outline: none;
+}
+.up_fullname{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding-left: 18px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid white;
+  color: #3E3535;
+  text-decoration: none;
+  outline: none;
+}
+.up_email_div{
+  position: absolute;
+  left: 15px;
+  top: 110px;
+  padding-left: 0px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: #992B11;
+  border-bottom: 1px solid white;
+  color: white;
+  outline: none;
+}
+.up_email{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding-left: 18px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid white;
+  color: #3E3535;
+  text-decoration: none;
+  outline: none;
+
+}
+.up_phone_div{
+  position: absolute;
+  left: 15px;
+  top: 160px;
+  padding-left: 0px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: #992B11;
+  border-bottom: 1px solid white;
+  color: white;
+  outline: none;
+}
+.up_phone{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding-left: 18px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid white;
+  color: #3E3535;
+  text-decoration: none;
+  outline: none;
+}
+.up_password_div1{
+  position: absolute;
+  left: 15px;
+  top: 210px;
+  padding-left: 0px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: #992B11;
+  border-bottom: 1px solid white;
+  color: white;
+  outline: none;
+}
+.up_password_1{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding-left: 18px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid white;
+  color: #3E3535;
+  text-decoration: none;
+  outline: none;
+
+}
+.up_eye{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 5px;
+  left: 175px;
+  cursor: pointer;
+}
+.up_hide{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 5px;
+  left: 175px;
+  cursor: pointer;
+}
+.up_password_div2{
+  position: absolute;
+  left: 15px;
+  top:260px;
+  padding-left: 0px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: #992B11;
+  border-bottom: 1px solid white;
+  color: white;
+  outline: none;
+}
+.up_password_2{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding-left: 18px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid white;
+  color: #3E3535;
+  text-decoration: none;
+  outline: none;
+
+}
+
+.next{
+  position: absolute;
+  top: 300px;
+  left: 15px;
+  width: 200px;
+  height: 30px;
+  background-color: inherit;
+  border: none;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  color: #3E3535;
+  border-radius: 5px;
+}
+.next:hover{
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+  color: white;
+}
+.checkbox_tc{
+  position: absolute;
+  top: 350px;
+  left: 15px;
+}
+.checkbox_p{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 338px;
+  left: 39px;
+  width: 200px;
+  height: 80px;
+
+}
+.checkbox_p_term{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-family:monospace;
+}
+
+
+
+
+
+
+
+
+
+
+.thought{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 120px;
+  left: 250px;
+  width: 800px;
+}
+.thought p{
+  font-size: 20px;
+  font-family: cursive;
+  color: #42423F;
+}
+
+.font1{
+  /* border:1px solid black; */
+  position: absolute;
+  top: 250px;
+  left: 250px;
+  width: 300px;
+  height: 200px;
+}
+
+.font2{
+  /* border:1px solid black; */
+  position: absolute;
+  top: 250px;
+  left: 560px;
+  width: 300px;
+  height: 200px;
+}
+.font3{
+  /* border:1px solid black; */
+  position: absolute;
+  top: 250px;
+  left: 870px;
+  width: 300px;
+  height: 215px;
+}
+ .cyber{
+   position: absolute;
+   top: 500px;
+   left: 340px;
+   background-color:#992B11;
+   color: white;
+   border: none;
+   padding: 10px;
+   text-decoration: none;
+ }
+.programmer{
+  position: absolute;
+  top: 500px;
+  left: 660px;
+  background-color:#992B11;
+  color: white;
+  border: none;
+  padding: 10px;
+  text-decoration: none;
+}
+.web_designing{
+  position: absolute;
+  top: 500px;
+  left: 970px;
+  background-color:#992B11;
+  color: white;
+  border: none;
+  padding: 10px;
+  text-decoration: none;
+}
+
+
+
+
+
+.footer{
+  /* border: 1px solid black; */
+position: absolute;
+top: 720px;
+left: 0px;
+right: 0px;
+height: 120px;
+background-color: #992B11;
+}
+
+
+
+
+1js
+
+
+
+
+
+
+
+
+function video(){
+  alert("First log in who ever you are !")
+}
+function myfunction(){
+  let x=document.getElementById('myInput');
+  let y=document.getElementById('eye_open');
+  let z=document.getElementById('hide');
+
+  if (x.type === 'password') {
+    x.type = "text";
+    y.style.display = "block";
+    z.style.display = "none";
+    }
+    else {
+      x.type = "password";
+      y.style.display = "none";
+      z.style.display = "block";
+    }
+}
+function myfunction1(){
+  let a=document.getElementById('sign_in');
+  let b=document.getElementById('sign_up');
+  a.style.display = "block";
+  b.style.display = "none";
+}
+function myfunction2(){
+  let a=document.getElementById('sign_in');
+  let b=document.getElementById('sign_up');
+  a.style.display = "none";
+  b.style.display = "block";
+}
+function myfunction_up(){
+  let p=document.getElementById('up_password');
+  let q=document.getElementById('up_eye_open_id');
+  let r=document.getElementById('up_hide_id');
+  if (p.type === 'password') {
+    p.type = "text";
+    q.style.display = "block";
+    r.style.display = "none";
+  }
+  else {
+    p.type = "password";
+    q.style.display = "none";
+    r.style.display = "block";
+  }
+}
+
+function myfunction_up2(){
+  let p=document.getElementById('up_password2');
+  let q=document.getElementById('up_eye_open_id2');
+  let r=document.getElementById('up_hide_id2');
+  if (p.type === 'password') {
+    p.type = "text";
+    q.style.display = "block";
+    r.style.display = "none";
+  }
+  else {
+    p.type = "password";
+    q.style.display = "none";
+    r.style.display = "block";
+  }
+}
+function signin(){
+  let email=document.getElementById('email').value;
+  let password=document.getElementById('myInput').value;
+  if (email == "Abhishek@123") {
+    if (password == "dulat123") {
+      alert("Hello ji Welcome to A.D ");
+    }
+    else {
+      alert("Password is incorrect ");
+    }
+  }
+  else {
+    alert("email and password is incorrect");
+  }
+}
+
+
+
+2
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>N_learning_freeindia: home</title>
+    <link rel="stylesheet" href="nitin_programmer.css">
+    <link rel = "icon" href ="uplogo.png" type = "image/x-icon">
+  </head>
+  <body>
+    <div class="upperoption">
+     <img src="logo.png" alt="" class="logo">
+     <img src="glasseslogo.png" alt="" class="logoglass">
+     <div class="home">
+       <img src="home.png" alt="" class="homelogo">
+         <p><a href="nitin.html" class="homep">Home</a></p>
+     </div>
+
+     <div class="live" onclick="live()">
+       <img src="live.png" alt="" class="livelogo">
+         <p class="livep">Go live</p>
+     </div>
+
+     <div class="Contact" >
+         <div class="Contact_us" >
+           <ul >
+           <li>Contact us
+             <ul class="Contact_us_part">
+               <li><img src="email.png" alt=""></li>
+               <li><img src="call.png" alt=""></li>
+               <li><img src="video_call.png" alt=""></li>
+               </ul>
+             </li>
+       </div>
+    </div>
+       <div class="sign_in" onclick="myfunction1()" ondblclick="myfunction11()">
+         <!-- <img src="live.png" alt="" class="livelogo"> -->
+           <p class="sign_inp">Sign in</p>
+       </div>
+       <div class="sign_up" onclick="myfunction2()" ondblclick="myfunction22()">
+         <!-- <img src="live.png" alt="" class="livelogo"> -->
+           <p class="sign_upp">Sign up</p>
+       </div>
+    </div>
+
+
+    <div class="sign_up_left" id="sign_up">
+
+    <div class="up_fullname_div">
+    <input type="text" name="" value="" placeholder="Enter fullname" class="up_fullname">
+    </div>
+    <div class="up_email_div">
+    <input type="email" name="" value="" placeholder="Enter email id" class="up_email">
+    </div>
+    <div class="up_phone_div">
+    <input type="number" name="" value="" placeholder="Enter Phone no." class="up_phone">
+    </div>
+    <div class="up_password_div1">
+    <input type="password" name="" value="" placeholder="Create password" class="up_password_1" id="up_password">
+    <div class="up_hide" onclick="myfunction_up()"><img src="up_hide.png" alt="" id="up_hide_id" style="width:16px;"></div>
+    <div class="up_eye" onclick="myfunction_up()"><img src="up_eye.png" alt="" id="up_eye_open_id" style="width:16px;"></div>
+    </div>
+    <div class="up_password_div2">
+    <input type="password" name="" value="" placeholder="Coform password" class="up_password_2" id="up_password2">
+    <div class="up_hide" onclick="myfunction_up2()"><img src="up_hide.png" alt="" id="up_hide_id2" style="width:16px;"></div>
+    <div class="up_eye" onclick="myfunction_up2()"><img src="up_eye.png" alt="" id="up_eye_open_id2" style="width:16px;"></div>
+    </div>
+    <button type="button" name="button" class="next">Next</button>
+    <input type="checkbox" name="" value="" class="checkbox_tc">
+    <div class="checkbox_p">
+      <p class="checkbox_p_term">By clicking this you<br> agrey to our all<br> <p style="color:blue;position: absolute;top:30px;font-family:monospace;"><a href="#">Terms & Conditions.</a></p></p>
+    </div>
+    </div>
+    <div class="sign_in_left" id="sign_in">
+        <img src="important_mail.png" alt="" style="position:absolute;top:62px;left:10px;z-index:1; width:18px">
+        <img src="password_key.png" alt="" style="position:absolute;top:122px;left:10px;z-index:1; width:18px">
+    <div class="email_main">
+    <input type="email" name="" value="" placeholder="E-mail" class="email" id="email">
+    </div>
+    <div class="password_main">
+    <input type="password" name="" value="" placeholder="Password" class="password" id="myInput" >
+    <div class="hide" onclick="myfunction()"><img src="hide.png" alt="" id="hide" style="width:16px;"></div>
+    <div class="eye" onclick="myfunction()"><img src="eye_open.png" alt="" id="eye_open" style="width:16px;"></div>
+    <div class="password_show">
+      <p>( Password should contain at lest 8 character )</p>
+    </div>
+    </div>
+    <button type="button" name="button" class="in_sign_in" onclick="signin()">Sign in</button>
+    </div>
+    <div class="head_programmer" id="head_programmer">
+      <p class="head_programmer_h">Programming language</p>
+      <button type="button" name="button" class="head_programmer_b" onclick="c()" ondblclick="dc()">C</button>
+      <button type="button" name="button" class="head_programmer_b1" onclick="c1()" ondblclick="dc()">C++</button>
+      <button type="button" name="button" class="head_programmer_b2" onclick="c2()" ondblclick="dc()">C#</button>
+      <button type="button" name="button" class="head_programmer_b3" onclick="c3()" ondblclick="dc()">Python</button>
+      <button type="button" name="button" class="head_programmer_b4" onclick="c4()" ondblclick="dc()">Java</button>
+      <button type="button" name="button" class="head_programmer_b5" onclick="c5()" ondblclick="dc()">Java script</button>
+      <button type="button" name="button" class="head_programmer_b6" onclick="c6()" ondblclick="dc()">Swift</button>
+      <button type="button" name="button" class="head_programmer_b7" onclick="c7()" ondblclick="dc()">Ruby</button>
+      <button type="button" name="button" class="head_programmer_b8" onclick="c8()" ondblclick="dc()">PHP</button>
+      <button type="button" name="button" class="head_programmer_b9" onclick="c9()" ondblclick="dc()">C</button>
+      <button type="button" name="button" class="head_programmer_b10" onclick="c10()" ondblclick="dc()">Objective C</button>
+      <p class="head_programmer_h1" id="head_programmer_h1">Go with these you will got your path ...</p>
+
+     <div class="head_programmer_logo_head" id="head_programmer_logo_head">
+     <div class="head_programmer_logo1">
+     <img src="java.png" alt="" class="head_programmer_logo1_p">
+     </div>
+     <div class="head_programmer_logo2">
+     <img src="c++.png" alt="" class="head_programmer_logo2_p">
+     </div>
+     <div class="head_programmer_logo3">
+     <img src="python.png" alt="" class="head_programmer_logo3_p">
+     </div>
+     <div class="head_programmer_logo4">
+     <img src="swift.png" alt="" class="head_programmer_logo4_p">
+     </div>
+     <div class="head_programmer_logo5">
+     <img src="ruby.png" alt="" class="head_programmer_logo5_p">
+     </div>
+     <div class="head_programmer_logo6">
+     <img src="sql.png" alt="" class="head_programmer_logo6_p">
+     </div>
+     <div class="head_programmer_logo7">
+     <img src="js.png" alt="" class="head_programmer_logo7_p">
+     </div>
+     <div class="head_programmer_logo8">
+     <img src="c.png" alt="" class="head_programmer_logo8_p">
+     </div>
+     <div class="head_programmer_logo9">
+     <img src="c_sharp.png" alt="" class="head_programmer_logo9_p">
+     </div>
+     <div class="head_programmer_logo10">
+     <img src="google_sketchup.png" alt="" class="head_programmer_logo10_p">
+     </div>
+     <div class="head_programmer_logo11">
+     <img src="developer.png" alt="" class="head_programmer_logo11_p">
+     </div>
+     </div>
+     </div>
+     <div class="programmer_about" id="programmer_about">
+       <p style="position:absolute;left:500px;margin-top:0px;" id="c_h"><b><b>C<br></b></b></p>
+       <div class="video" href="nitin_video.html" style="position:absolute;left:1150px;margin-top:0px;width:150px;height:50px;">
+       <a href="nitin_video.html"><img src="video_p.png" alt="" class="videologo"  style="position:absolute;left:10px;margin-top:0px;color:#992B11;"></a>
+         <a class="videop" style="position:absolute;left:70px;margin-top:10px;color:#992B11;text-decoration:none;"  href="nitin_video.html">video</a>
+     </div>
+     <p style="position:absolute;left:1020px;margin-top:13px;" >Let's Start</p>
+       <p style="position:absolute;left:500px;margin-top:0px;display:none;" id="c++_h" ><b><b>C++</b></b></p>
+       <p style="position:absolute;left:500px;margin-top:0px;display:none;" id="c#_h"><b><b>C#</b></b></p>
+       <p style="position:absolute;left:500px;margin-top:0px;display:none;" id="python_h"><b><b>Python</b></b></p>
+       <p style="position:absolute;left:500px;margin-top:0px;display:none;" id="java_h"><b><b>Java</b></b></p>
+       <p style="position:absolute;left:500px;margin-top:0px;display:none;" id="java_script_h"><b><b>Java script</b></b></p>
+       <p style="position:absolute;left:500px;margin-top:0px;display:none;" id="swift_h"><b><b>Swift</b></b></p>
+       <p style="position:absolute;left:500px;margin-top:0px;display:none;" id="ruby_h"><b><b>Ruby</b></b></p>
+       <p style="position:absolute;left:500px;margin-top:0px;display:none;" id="php_h"><b><b>PHP</b></b></p>
+       <p style="position:absolute;left:500px;margin-top:0px;display:none;" id="oc_h"><b><b>Objective C</b></b></p>
+       <div style="position:absolute;left:0px;top:60px;width:1300px;height: 0px;border:1px solid black;background-color:black;" id="line"></div>
+    <p style="position:absolute;left:0px;Top:50px;"><b>   Unit 1: Introduction to Principles of programming</b><br>
+   Introduction to Programming , Programing Domain : Scientific Application , Business Applications,  Artificial Intelligence, Systems Programming , Web Software<br> Categories of Programming Languages: Machine Level Languages, Assembly Level Languages , High Level Languages Programming Design Methodologies : Top<br> Down and Bottom UP Program Development Cycle with case study, Program Execution and Translation Process ,Problem solving using Algorithms and<br> Flowcharts, Performance Analysis and Measurements: Time and Space complexity<br><br>
+   <b>Unit 2: Introduction to C Programming:</b><br>
+   Features of C and its Basic Structure, Simple C programs, Constants, Integer Constants, Real Constants, Character Constants, String Constants, Backslash<br> Character Constants, Concept of an Integer and Variable, Rules for naming Variables and assigning values to variables<br><br>
+   <b>Unit 3: Operators and Expressions:</b><br>
+   Arithmetic Operators, Unary Operators, Relational and Logical Operators, The Conditional Operator, Library Functions, Bitwise Operators, The Increment and<br> Decrement Operators, The Size of Operator, Precedence of operators.<br><br>
+   <b>   Unit 4: Data Types and Input/Output Operators:</b><br>
+   Floating-point Numbers, Converting Integers to Floating-point and vice-versa,  Mixed-mode Expressions, The type cast Operator,  The type char, Keywords,<br> Character Input and Output, Formatted input and output, The gets() and puts() functions, Interactive Programming.<br><br>
+   <b>Unit 5 : Control Statements and Decision Making:</b><br>
+   The goto statement, The if statement, The if-else statement, Nesting of if statements, The conditional expression, The switch statement, The while loop, The do…<br>while loop, The for loop, The nesting of for loops, The break statement and continue statement.<br><br>
+   <b>Unit 6 : Arrays and Strings:</b><br>
+   One Dimensional Arrays, Passing Arrays to Functions, Multidimensional Arrays, Strings<br><br>
+   <b>Unit 7:  Pointers – I:</b><br>
+   Basics of Pointers, Pointers and One-dimensional Arrays, Pointer Arithmetic, Pointer Subtraction and Comparison, Similarities between Pointers and One-<br>dimensional Arrays.<br><br>
+   <b>Unit 8: Pointers – II:</b><br>
+   Null pointers, Pointers and Strings, Pointers and two-dimensional arrays, Arrays of Pointers<br><br>
+   <b>Unit 9: Structures and Unions:</b><br>
+   Basics of Structures, Arrays of Structures, Pointers to Structures, Self-referential Structures, Unions.<br><br>
+   <b>Unit 10: Functions:</b><br>
+   Function Philosophy, Function Basics, Function Prototypes, and Passing Parameters: Passing Parameter by value and Passing Parameter by reference, passing<br> string to function, Passing array to function, Structures and Functions Recursion<br><br>
+   <b>Unit 11: Storage Classes:</b><br>
+   Storage Classes and Visibility, Automatic or local variables, Global variables, Static variables, External variables<br><br>
+   <b>Unit 12: The Preprocessor:</b><br>
+   File Inclusion, Macro Definition and Substitution, Macros with Arguments, Nesting of Macros, Conditional Compilation<br><br>
+   <b>Unit 13: Dynamic Memory Allocation and Linked List:</b><br>
+   Dynamic Memory Allocation, Allocating Memory with malloc, Allocating Memory with calloc, Freeing Memory, Reallocating Memory Blocks, Pointer Safety, The<br> Concept of linked list, Inserting a node by using Recursive Programs, Sorting and Reversing a Linked List, Deleting the Specified Node in a Singly Linked List.<br><br>
+   <b>Unit 14: File Management:</b><br>
+   Defining and Opening a file, Closing Files, Input/output Operations on Files, Predefined Streams, Error Handling during I/O Operations, Random Access to Files,<br> Command Line Arguments.</p>
+     </div>
+
+
+<footer class="footer" id="footer">
+
+</footer>
+    <script src="nitin_programmer.js">
+
+    </script>
+  </body>
+</html>
+
+
+
+
+2css
+
+
+
+
+.upperoption{
+  /* border: 1px solid black; */
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 50px;
+  width: 100%;
+  background-color: #992B11;
+  z-index: 1;
+}
+.logo{
+  position: fixed;
+  left: 15px;
+  top: 10px;
+}
+.logoglass{
+  position: fixed;
+  left: 33px;
+  top: 30px;
+  width: 20px;
+}
+.home{
+  /* border: 1px solid black; */
+  position: fixed;
+  left: 700px;
+  top: 10px;
+  width: 100px;
+  height: 30px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.homep{
+  position: fixed;
+  left: 730px;
+  top: 8px;
+  text-align: right;
+  margin: 10px;
+  font-family: sans-serif;
+  color: white;
+  text-decoration: none;
+}
+.homelogo{
+  position: fixed;
+  left: 700px;
+  top: 5px;
+  margin: 10px;
+  width: 20px;
+}
+/* .video{
+  border: 1px solid black;
+  position: fixed;
+  left: 05px;
+  top: 10px;
+  width: 100px;
+  height: 30px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.videop{
+  position: fixed;
+  left: 35px;
+  top: 8px;
+  text-align: right;
+  margin: 10px;
+  font-family: sans-serif;
+  color: white;
+  text-decoration: none;
+  outline: none;
+}
+.videologo{
+  position: fixed;
+  left: 5px;
+  top: 5px;
+  margin: 10px;
+  width: 20px;
+} */
+.live{
+  /* border: 1px solid black; */
+  position: fixed;
+  left: 809px;
+  top: 10px;
+  width: 100px;
+  height: 30px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.livep{
+  position: fixed;
+  left: 839px;
+  top: 8px;
+  text-align: right;
+  margin: 10px;
+  font-family: sans-serif;
+  color: white;
+}
+.livelogo{
+  position: fixed;
+  left: 809px;
+  top: 5px;
+  margin: 10px;
+  width: 20px;
+}
+.Contact{
+  position:absolute;
+   left:912px;
+   top:10px;
+}
+.Contact_us {
+  position: fixed;
+  display: inline-block;
+  text-align: center;
+}
+.Contact_us ul{
+  list-style: none;
+}
+.Contact_us li:hover{
+
+  /* background: #313131; */
+}
+.Contact_us > ul{
+
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.Contact_us  > ul  >li
+{
+    font-family: sans-serif;
+  position:relative;
+  cursor: pointer;
+  float:left;
+  font-size: 14px;
+  width:136px ;
+  height: 30px;
+  left: 0px;
+  top:0px;
+  width: 100px;
+  line-height: 30px;
+  /* text-align: center;*/
+}
+.Contact_us_part{
+  position: absolute;
+  top :30px;
+  left:0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+.Contact_us_part li{
+  background:#992B11 ;
+  display: none;
+}
+.Contact_us_part  li:hover{
+  /* background:yellow; */
+  /* color: yellow; */
+    box-shadow: 0px 0px 20px rgba(0, 20, 0, 0.8);
+}
+.Contact_us  li:hover > .Contact_us_part li{
+  display: block;
+}
+
+
+
+.sign_in{
+  /* border: 1px solid black; */
+  position: fixed;
+  left: 1316px;
+  top: 10px;
+  width: 100px;
+  height: 30px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.sign_inp{
+  position: fixed;
+  left: 1330px;
+  top: 8px;
+  text-align: center;
+  margin: 10px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.sign_up{
+  /* border: 1px solid black; */
+  position: fixed;
+  left: 1419px;
+  top: 10px;
+  width: 100px;
+  height: 30px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.sign_upp{
+  position: fixed;
+  left: 1433px;
+  top: 8px;
+  text-align: center;
+  margin: 10px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.sign_in_left{
+  /* border: 1px solid black; */
+  position: fixed;
+  top: 50px;
+  right: 0px;
+  width: 230px;
+  height: 670px;
+  background-color: #992B11;
+  display: none;
+}
+.email_main{
+  position: absolute;
+  left: 15px;
+  top: 60px;
+  padding-left: 18px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: #992B11;
+  border-bottom: 1px solid white;
+  color: white;
+  outline: none;
+}
+.email{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding-left: 18px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: #992B11;
+  border-bottom: 1px solid white;
+  color: white;
+  outline: none;
+}
+.password_main{
+  position: absolute;
+  left: 15px;
+  top: 120px;
+  padding-left: 18px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: #992B11;
+  border-bottom: 1px solid white;
+  color: white;
+  text-decoration: none;
+  outline: none;
+}
+.password{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding-left: 18px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: #992B11;
+  border-bottom: 1px solid white;
+  color: white;
+  text-decoration: none;
+  outline: none;
+}
+.eye{
+  /* border: 1px solid black; */
+  position: absolute;
+  left: 170px;
+  cursor: pointer;
+}
+.hide{
+  /* border: 1px solid black; */
+  position: absolute;
+  left: 170px;
+  cursor: pointer;
+}
+.password_show{
+  position: absolute;
+  top: 12px;
+  left: 0px;
+  font-size: 13px;
+  font-family:inherit;
+}
+
+.in_sign_in{
+  position: absolute;
+  top: 200px;
+  left: 15px;
+  width: 200px;
+  height: 30px;
+  background-color: inherit;
+  border: none;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  color:  #3E3535;
+  border-radius: 5px;
+    outline: none;
+}
+.in_sign_in:hover{
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+
+.sign_up_left{
+  /* border: 1px solid black; */
+  position: fixed;
+  top: 50px;
+  right: 0px;
+  width: 230px;
+  height: 670px;
+  background-color: #992B11;
+  display: none;
+
+}
+.up_fullname_div{
+  position: absolute;
+  left: 15px;
+  top: 60px;
+  padding-left: 0px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: #992B11;
+  border-bottom: 1px solid white;
+  color: white;
+  outline: none;
+}
+.up_fullname{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding-left: 18px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid white;
+  color: #3E3535;
+  text-decoration: none;
+  outline: none;
+}
+.up_email_div{
+  position: absolute;
+  left: 15px;
+  top: 110px;
+  padding-left: 0px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: #992B11;
+  border-bottom: 1px solid white;
+  color: white;
+  outline: none;
+}
+.up_email{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding-left: 18px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid white;
+  color: #3E3535;
+  text-decoration: none;
+  outline: none;
+
+}
+.up_phone_div{
+  position: absolute;
+  left: 15px;
+  top: 160px;
+  padding-left: 0px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: #992B11;
+  border-bottom: 1px solid white;
+  color: white;
+  outline: none;
+}
+.up_phone{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding-left: 18px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid white;
+  color: #3E3535;
+  text-decoration: none;
+  outline: none;
+}
+.up_password_div1{
+  position: absolute;
+  left: 15px;
+  top: 210px;
+  padding-left: 0px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: #992B11;
+  border-bottom: 1px solid white;
+  color: white;
+  outline: none;
+}
+.up_password_1{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding-left: 18px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid white;
+  color: #3E3535;
+  text-decoration: none;
+  outline: none;
+
+}
+.up_eye{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 5px;
+  left: 175px;
+  cursor: pointer;
+}
+.up_hide{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 5px;
+  left: 175px;
+  cursor: pointer;
+}
+.up_password_div2{
+  position: absolute;
+  left: 15px;
+  top:260px;
+  padding-left: 0px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: #992B11;
+  border-bottom: 1px solid white;
+  color: white;
+  outline: none;
+}
+.up_password_2{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding-left: 18px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid white;
+  color: #3E3535;
+  text-decoration: none;
+  outline: none;
+
+}
+
+.next{
+  position: absolute;
+  top: 300px;
+  left: 15px;
+  width: 200px;
+  height: 30px;
+  background-color: inherit;
+  border: none;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  color: #3E3535;
+  border-radius: 5px;
+}
+.next:hover{
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+  color: white;
+}
+.checkbox_tc{
+  position: absolute;
+  top: 350px;
+  left: 15px;
+}
+.checkbox_p{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 338px;
+  left: 39px;
+  width: 200px;
+  height: 80px;
+
+}
+.checkbox_p_term{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-family:monospace;
+}
+.head_programmer{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 90px;
+  left: 100px;
+  width: 1200px;
+  height: 550px;
+}
+.head_programmer_h{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 0px;
+  left: 450px;
+  width: 300px;
+  color: #42423F;
+  font-size: 25px;
+  font-family: cursive;
+}
+
+.head_programmer_b{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 150px;
+  left: 130px;
+  width: 100px;
+  color: white;
+  background-color:  #992B11;
+  font-size: 25px;
+  font-family: cursive;
+  border: none;
+  outline: none;
+}
+.head_programmer_b:hover{
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+}
+.programmer_about{
+  /* border: 1px solid black; */
+  position: absolute;
+  left:100px;
+  top: 400px;
+  width: 1300px;
+  height: 1790px;
+  font-family: cursive;
+  font-size: 20px;
+  color: #42423F;
+  display: none;
+  /* background-color:  ; */
+}
+.head_programmer_b1{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 150px;
+  left: 270px;
+  width: 100px;
+  color: white;
+  background-color:  #992B11;
+  font-size: 25px;
+  font-family: cursive;
+  border: none;
+  outline: none;
+}
+.head_programmer_b1:hover{
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+}
+.head_programmer_b2{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 150px;
+  left: 410px;
+  width: 100px;
+  color: white;
+  background-color:  #992B11;
+  font-size: 25px;
+  font-family: cursive;
+  border: none;
+  outline: none;
+}
+.head_programmer_b2:hover{
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+}
+
+.head_programmer_b3{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 150px;
+  left: 560px;
+  width: 100px;
+  color: white;
+  background-color:  #992B11;
+  font-size: 25px;
+  font-family: cursive;
+  border: none;
+  outline: none;
+}
+.head_programmer_b3:hover{
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+}
+
+.head_programmer_b4{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 150px;
+  left: 710px;
+  width: 100px;
+  color: white;
+  background-color:  #992B11;
+  font-size: 25px;
+  font-family: cursive;
+  border: none;
+  outline: none;
+}
+
+.head_programmer_b4:hover{
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+}
+.head_programmer_b5{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 150px;
+  left: 850px;
+  width: 150px;
+  color: white;
+  background-color:  #992B11;
+  font-size: 25px;
+  font-family: cursive;
+  border: none;
+  outline: none;
+}
+.head_programmer_b5:hover{
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+}
+
+.head_programmer_b6{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 250px;
+  left: 180px;
+  width: 100px;
+  color: white;
+  background-color:  #992B11;
+  font-size: 25px;
+  font-family: cursive;
+  border: none;
+  outline: none;
+}
+.head_programmer_b6:hover{
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+}
+.head_programmer_b7{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 250px;
+  left: 320px;
+  width: 100px;
+  color: white;
+  background-color:  #992B11;
+  font-size: 25px;
+  font-family: cursive;
+  border: none;
+  outline: none;
+}.head_programmer_b7:hover{
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+}
+
+.head_programmer_b8{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 250px;
+  left: 460px;
+  width: 100px;
+  color: white;
+  background-color:  #992B11;
+  font-size: 25px;
+  font-family: cursive;
+  border: none;
+  outline: none;
+}
+.head_programmer_b8:hover{
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+}
+.head_programmer_b9{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 250px;
+  left: 610px;
+  width: 100px;
+  color: white;
+  background-color:  #992B11;
+  font-size: 25px;
+  font-family: cursive;
+  border: none;
+  outline: none;
+}
+.head_programmer_b9:hover{
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+}
+.head_programmer_b10{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 250px;
+  left: 760px;
+  width: 160px;
+  color: white;
+  background-color:  #992B11;
+  font-size: 25px;
+  font-family: cursive;
+  border: none;
+  outline: none;
+}
+.head_programmer_b10:hover{
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+}
+
+.head_programmer_h1{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 320px;
+  left: 750px;
+  width: 300px;
+  color: #42423F;
+  font-size: 25px;
+  font-family: cursive;
+}
+.head_programmer_logo_head{
+  border: 2px solid #992B11;
+  border-radius: 60px;
+  position: relative;
+  top:360px;
+  left: 110px;
+  box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.5);
+  width: 230px;
+  height: 230px;
+}
+.head_programmer_logo_head:hover{
+  transition: 2s;
+  transform: rotate(3600deg);
+}
+.head_programmer_logo1{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 0px;
+  left: 100px;
+  width: 20px;
+  height: 20px;
+}
+.head_programmer_logo1_p{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+}
+.head_programmer_logo2{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 30px;
+  left: 150px;
+  width: 20px;
+  height: 20px;
+}
+.head_programmer_logo2_p{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+}
+.head_programmer_logo3{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 70px;
+  left: 190px;
+  width: 20px;
+  height: 20px;
+}
+.head_programmer_logo3_p{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+}
+.head_programmer_logo4{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  width: 20px;
+  height: 20px;
+}
+.head_programmer_logo4_p{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+}
+.head_programmer_logo5{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 70px;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+}
+.head_programmer_logo5_p{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+}
+.head_programmer_logo6{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 120px;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+}
+.head_programmer_logo6_p{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+}
+.head_programmer_logo7{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 180px;
+  left: 40px;
+  width: 20px;
+  height: 20px;
+}
+.head_programmer_logo7_p{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+}
+.head_programmer_logo8{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 210px;
+  left: 100px;
+  width: 20px;
+  height: 20px;
+}
+.head_programmer_logo8_p{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+}
+.head_programmer_logo9{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 180px;
+  left: 150px;
+  width: 20px;
+  height: 20px;
+}
+.head_programmer_logo9_p{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+}
+.head_programmer_logo10{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 130px;
+  left: 190px;
+  width: 20px;
+  height: 20px;
+}
+.head_programmer_logo10_p{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+}
+.head_programmer_logo11{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  width: 30px;
+  height: 30px;
+}
+.head_programmer_logo11_p{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 35px;
+  height: 35px;
+}
+
+.footer{
+  /* border: 1px solid black; */
+position: absolute;
+top: 720px;
+left: 0px;
+right: 0px;
+height: 120px;
+background-color: #992B11;
+}
+
+
+
+
+2js
+
+
+
+
+
+
+
+function live(){
+  alert("First log in who ever you are !");
+}
+
+
+function myfunction(){
+  let x=document.getElementById('myInput');
+  let y=document.getElementById('eye_open');
+  let z=document.getElementById('hide');
+
+  if (x.type === 'password') {
+    x.type = "text";
+    y.style.display = "block";
+    z.style.display = "none";
+    }
+    else {
+      x.type = "password";
+      y.style.display = "none";
+      z.style.display = "block";
+    }
+}
+function myfunction1(){
+  let a=document.getElementById('sign_in');
+  let b=document.getElementById('sign_up');
+  a.style.display = "block";
+  b.style.display = "none";
+}
+function myfunction2(){
+  let a=document.getElementById('sign_in');
+  let b=document.getElementById('sign_up');
+  a.style.display = "none";
+  b.style.display = "block";
+}
+function myfunction11(){
+  let a=document.getElementById('sign_in');
+  let b=document.getElementById('sign_up');
+  a.style.display = "none";
+  b.style.display = "none";
+}
+function myfunction22(){
+  let a=document.getElementById('sign_in');
+  let b=document.getElementById('sign_up');
+  a.style.display = "none";
+  b.style.display = "none";
+}
+function myfunction_up(){
+  let p=document.getElementById('up_password');
+  let q=document.getElementById('up_eye_open_id');
+  let r=document.getElementById('up_hide_id');
+  if (p.type === 'password') {
+    p.type = "text";
+    q.style.display = "block";
+    r.style.display = "none";
+  }
+  else {
+    p.type = "password";
+    q.style.display = "none";
+    r.style.display = "block";
+  }
+}
+
+function myfunction_up2(){
+  let p=document.getElementById('up_password2');
+  let q=document.getElementById('up_eye_open_id2');
+  let r=document.getElementById('up_hide_id2');
+  if (p.type === 'password') {
+    p.type = "text";
+    q.style.display = "block";
+    r.style.display = "none";
+  }
+  else {
+    p.type = "password";
+    q.style.display = "none";
+    r.style.display = "block";
+  }
+}
+
+
+
+function c(){
+  let g=document.getElementById('head_programmer_logo_head');
+  let h=document.getElementById('programmer_about');
+  let i=document.getElementById('head_programmer_h1');
+  let j=document.getElementById('footer');
+  let k=document.getElementById('programmer_about');
+  let l=document.getElementById('line');
+  let m=document.getElementById('c_h');
+  let m1=document.getElementById('c++_h');
+  let m2=document.getElementById('c#_h');
+  let m3=document.getElementById('python_h');
+  let m4=document.getElementById('java_h');
+  let m5=document.getElementById('java_script_h');
+  let m6=document.getElementById('swift_h');
+  let m7=document.getElementById('ruby_h');
+  let m8=document.getElementById('php_h');
+  let m9=document.getElementById('oc_h');
+  let foo=2300;
+  m.style.display="block";
+  m1.style.display="none";
+  m2.style.display="none";
+  m3.style.display="none";
+  m4.style.display="none";
+  m5.style.display="none";
+  m6.style.display="none";
+  m7.style.display="none";
+  m8.style.display="none";
+  m9.style.display="none";
+  g.style.display= "none";
+  i.style.display= "none";
+  h.style.display= "block";
+  j.style.top=foo + "px";
+}
+function c1(){
+  let g=document.getElementById('head_programmer_logo_head');
+  let h=document.getElementById('programmer_about');
+  let i=document.getElementById('head_programmer_h1');
+  let j=document.getElementById('footer');
+  let k=document.getElementById('programmer_about');
+  let l=document.getElementById('line');
+  let m=document.getElementById('c_h');
+  let m1=document.getElementById('c++_h');
+  let m2=document.getElementById('c#_h');
+  let m3=document.getElementById('python_h');
+  let m4=document.getElementById('java_h');
+  let m5=document.getElementById('java_script_h');
+  let m6=document.getElementById('swift_h');
+  let m7=document.getElementById('ruby_h');
+  let m8=document.getElementById('php_h');
+  let m9=document.getElementById('oc_h');
+  let foo=2300;
+  m.style.display="none";
+  m1.style.display="block";
+  m2.style.display="none";
+  m3.style.display="none";
+  m4.style.display="none";
+  m5.style.display="none";
+  m6.style.display="none";
+  m7.style.display="none";
+  m8.style.display="none";
+  m9.style.display="none";
+  g.style.display= "none";
+  i.style.display= "none";
+  h.style.display= "block";
+  j.style.top=foo + "px";
+}
+function c2(){
+  let g=document.getElementById('head_programmer_logo_head');
+  let h=document.getElementById('programmer_about');
+  let i=document.getElementById('head_programmer_h1');
+  let j=document.getElementById('footer');
+  let k=document.getElementById('programmer_about');
+  let l=document.getElementById('line');
+  let m=document.getElementById('c_h');
+  let m1=document.getElementById('c++_h');
+  let m2=document.getElementById('c#_h');
+  let m3=document.getElementById('python_h');
+  let m4=document.getElementById('java_h');
+  let m5=document.getElementById('java_script_h');
+  let m6=document.getElementById('swift_h');
+  let m7=document.getElementById('ruby_h');
+  let m8=document.getElementById('php_h');
+  let m9=document.getElementById('oc_h');
+  let foo=2300;
+  m.style.display="none";
+  m1.style.display="none";
+  m2.style.display="block";
+  m3.style.display="none";
+  m4.style.display="none";
+  m5.style.display="none";
+  m6.style.display="none";
+  m7.style.display="none";
+  m8.style.display="none";
+  m9.style.display="none";
+  g.style.display= "none";
+  i.style.display= "none";
+  h.style.display= "block";
+  j.style.top=foo + "px";
+}
+
+function c3(){
+  let g=document.getElementById('head_programmer_logo_head');
+  let h=document.getElementById('programmer_about');
+  let i=document.getElementById('head_programmer_h1');
+  let j=document.getElementById('footer');
+  let k=document.getElementById('programmer_about');
+  let l=document.getElementById('line');
+  let m=document.getElementById('c_h');
+  let m1=document.getElementById('c++_h');
+  let m2=document.getElementById('c#_h');
+  let m3=document.getElementById('python_h');
+  let m4=document.getElementById('java_h');
+  let m5=document.getElementById('java_script_h');
+  let m6=document.getElementById('swift_h');
+  let m7=document.getElementById('ruby_h');
+  let m8=document.getElementById('php_h');
+  let m9=document.getElementById('oc_h');
+  let foo=2300;
+  m.style.display="none";
+  m1.style.display="none";
+  m2.style.display="none";
+  m3.style.display="block";
+  m4.style.display="none";
+  m5.style.display="none";
+  m6.style.display="none";
+  m7.style.display="none";
+  m8.style.display="none";
+  m9.style.display="none";
+  g.style.display= "none";
+  i.style.display= "none";
+  h.style.display= "block";
+  j.style.top=foo + "px";
+}
+
+function c4(){
+  let g=document.getElementById('head_programmer_logo_head');
+  let h=document.getElementById('programmer_about');
+  let i=document.getElementById('head_programmer_h1');
+  let j=document.getElementById('footer');
+  let k=document.getElementById('programmer_about');
+  let l=document.getElementById('line');
+  let m=document.getElementById('c_h');
+  let m1=document.getElementById('c++_h');
+  let m2=document.getElementById('c#_h');
+  let m3=document.getElementById('python_h');
+  let m4=document.getElementById('java_h');
+  let m5=document.getElementById('java_script_h');
+  let m6=document.getElementById('swift_h');
+  let m7=document.getElementById('ruby_h');
+  let m8=document.getElementById('php_h');
+  let m9=document.getElementById('oc_h');
+  let foo=2300;
+  m.style.display="none";
+  m1.style.display="none";
+  m2.style.display="none";
+  m3.style.display="none";
+  m4.style.display="block";
+  m5.style.display="none";
+  m6.style.display="none";
+  m7.style.display="none";
+  m8.style.display="none";
+  m9.style.display="none";
+  g.style.display= "none";
+  i.style.display= "none";
+  h.style.display= "block";
+  j.style.top=foo + "px";
+}
+
+function c5(){
+  let g=document.getElementById('head_programmer_logo_head');
+  let h=document.getElementById('programmer_about');
+  let i=document.getElementById('head_programmer_h1');
+  let j=document.getElementById('footer');
+  let k=document.getElementById('programmer_about');
+  let l=document.getElementById('line');
+  let m=document.getElementById('c_h');
+  let m1=document.getElementById('c++_h');
+  let m2=document.getElementById('c#_h');
+  let m3=document.getElementById('python_h');
+  let m4=document.getElementById('java_h');
+  let m5=document.getElementById('java_script_h');
+  let m6=document.getElementById('swift_h');
+  let m7=document.getElementById('ruby_h');
+  let m8=document.getElementById('php_h');
+  let m9=document.getElementById('oc_h');
+  let foo=2300;
+  m.style.display="none";
+  m1.style.display="none";
+  m2.style.display="none";
+  m3.style.display="none";
+  m4.style.display="none";
+  m5.style.display="block";
+  m6.style.display="none";
+  m7.style.display="none";
+  m8.style.display="none";
+  m9.style.display="none";
+  g.style.display= "none";
+  i.style.display= "none";
+  h.style.display= "block";
+  j.style.top=foo + "px";
+}
+
+function c6(){
+  let g=document.getElementById('head_programmer_logo_head');
+  let h=document.getElementById('programmer_about');
+  let i=document.getElementById('head_programmer_h1');
+  let j=document.getElementById('footer');
+  let k=document.getElementById('programmer_about');
+  let l=document.getElementById('line');
+  let m=document.getElementById('c_h');
+  let m1=document.getElementById('c++_h');
+  let m2=document.getElementById('c#_h');
+  let m3=document.getElementById('python_h');
+  let m4=document.getElementById('java_h');
+  let m5=document.getElementById('java_script_h');
+  let m6=document.getElementById('swift_h');
+  let m7=document.getElementById('ruby_h');
+  let m8=document.getElementById('php_h');
+  let m9=document.getElementById('oc_h');
+  let foo=2300;
+  m.style.display="none";
+  m1.style.display="none";
+  m2.style.display="none";
+  m3.style.display="none";
+  m4.style.display="none";
+  m5.style.display="none";
+  m6.style.display="block";
+  m7.style.display="none";
+  m8.style.display="none";
+  m9.style.display="none";
+  g.style.display= "none";
+  i.style.display= "none";
+  h.style.display= "block";
+  j.style.top=foo + "px";
+}
+
+function c7(){
+  let g=document.getElementById('head_programmer_logo_head');
+  let h=document.getElementById('programmer_about');
+  let i=document.getElementById('head_programmer_h1');
+  let j=document.getElementById('footer');
+  let k=document.getElementById('programmer_about');
+  let l=document.getElementById('line');
+  let m=document.getElementById('c_h');
+  let m1=document.getElementById('c++_h');
+  let m2=document.getElementById('c#_h');
+  let m3=document.getElementById('python_h');
+  let m4=document.getElementById('java_h');
+  let m5=document.getElementById('java_script_h');
+  let m6=document.getElementById('swift_h');
+  let m7=document.getElementById('ruby_h');
+  let m8=document.getElementById('php_h');
+  let m9=document.getElementById('oc_h');
+  let foo=2300;
+  m.style.display="none";
+  m1.style.display="none";
+  m2.style.display="none";
+  m3.style.display="none";
+  m4.style.display="none";
+  m5.style.display="none";
+  m6.style.display="none";
+  m7.style.display="block";
+  m8.style.display="none";
+  m9.style.display="none";
+  g.style.display= "none";
+  i.style.display= "none";
+  h.style.display= "block";
+  j.style.top=foo + "px";
+}
+
+function c8(){
+  let g=document.getElementById('head_programmer_logo_head');
+  let h=document.getElementById('programmer_about');
+  let i=document.getElementById('head_programmer_h1');
+  let j=document.getElementById('footer');
+  let k=document.getElementById('programmer_about');
+  let l=document.getElementById('line');
+  let m=document.getElementById('c_h');
+  let m1=document.getElementById('c++_h');
+  let m2=document.getElementById('c#_h');
+  let m3=document.getElementById('python_h');
+  let m4=document.getElementById('java_h');
+  let m5=document.getElementById('java_script_h');
+  let m6=document.getElementById('swift_h');
+  let m7=document.getElementById('ruby_h');
+  let m8=document.getElementById('php_h');
+  let m9=document.getElementById('oc_h');
+  let foo=2300;
+  m.style.display="none";
+  m1.style.display="none";
+  m2.style.display="none";
+  m3.style.display="none";
+  m4.style.display="none";
+  m5.style.display="none";
+  m6.style.display="none";
+  m7.style.display="none";
+  m8.style.display="block";
+  m9.style.display="none";
+  g.style.display= "none";
+  i.style.display= "none";
+  h.style.display= "block";
+  j.style.top=foo + "px";
+}
+
+function c10(){
+  let g=document.getElementById('head_programmer_logo_head');
+  let h=document.getElementById('programmer_about');
+  let i=document.getElementById('head_programmer_h1');
+  let j=document.getElementById('footer');
+  let k=document.getElementById('programmer_about');
+  let l=document.getElementById('line');
+  let m=document.getElementById('c_h');
+  let m1=document.getElementById('c++_h');
+  let m2=document.getElementById('c#_h');
+  let m3=document.getElementById('python_h');
+  let m4=document.getElementById('java_h');
+  let m5=document.getElementById('java_script_h');
+  let m6=document.getElementById('swift_h');
+  let m7=document.getElementById('ruby_h');
+  let m8=document.getElementById('php_h');
+  let m9=document.getElementById('oc_h');
+  let foo=2300;
+  m.style.display="none";
+  m1.style.display="none";
+  m2.style.display="none";
+  m3.style.display="none";
+  m4.style.display="none";
+  m5.style.display="none";
+  m6.style.display="none";
+  m7.style.display="none";
+  m8.style.display="none";
+  m9.style.display="block";
+  g.style.display= "none";
+  i.style.display= "none";
+  h.style.display= "block";
+  j.style.top=foo + "px";
+}
+function c9(){
+  let g=document.getElementById('head_programmer_logo_head');
+  let h=document.getElementById('programmer_about');
+  let i=document.getElementById('head_programmer_h1');
+  let j=document.getElementById('footer');
+  let k=document.getElementById('programmer_about');
+  let l=document.getElementById('line');
+  let m=document.getElementById('c_h');
+  let foo=2300;
+  m.style.display="block";
+  g.style.display= "none";
+  i.style.display= "none";
+  h.style.display= "block";
+  j.style.top=foo + "px";
+}
+
+
+function dc(){
+  let g=document.getElementById('head_programmer_logo_head');
+  let h=document.getElementById('programmer_about');
+  let i=document.getElementById('head_programmer_h1');
+  let j=document.getElementById('footer');
+  let k=document.getElementById('programmer_about');
+  let l=document.getElementById('line');
+  let foo=720;
+  g.style.display= "block";
+  i.style.display= "block";
+  h.style.display= "none";
+  j.style.top=foo + "px";
+}
+function signin(){
+  let email=document.getElementById('email').value;
+  let password=document.getElementById('myInput').value;
+  if (email == "Abhishek@123") {
+    if (password == "dulat123") {
+      alert("Hello ji Welcome to A.D ");
+    }
+    else {
+      alert("Password is incorrect ");
+    }
+  }
+  else {
+    alert("email and password is incorrect");
+  }
+}
+
+
+
+
+
+
+3v
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+   <title>N_learning_freeindia: video</title>
+  <link rel="stylesheet" href="nitin_video.css">
+  <link rel = "icon" href ="uplogo.png" type = "image/x-icon">
+  </head>
+  <body>
+    <div class="upperoption">
+     <img src="logo.png" alt="" class="logo">
+     <img src="glasseslogo.png" alt="" class="logoglass">
+     <div class="home">
+       <img src="home.png" alt="" class="homelogo">
+         <p><a href="nitin.html" class="homep">Home</a></p>
+     </div>
+     <div class="video">
+       <img src="video.png" alt="" class="videologo">
+         <p class="videop">video</p>
+     </div>
+     <div class="live" onclick="live()">
+       <img src="live.png" alt="" class="livelogo">
+         <p class="livep">Go live</p>
+     </div>
+
+     <div class="Contact" >
+         <div class="Contact_us" >
+           <ul >
+           <li>Contact us
+             <ul class="Contact_us_part">
+               <li><img src="email.png" alt=""></li>
+               <li><img src="call.png" alt=""></li>
+               <li><img src="video_call.png" alt=""></li>
+               </ul>
+             </li>
+       </div>
+    </div>
+       <div class="sign_in" onclick="myfunction1()" ondblclick="myfunction11()">
+         <!-- <img src="live.png" alt="" class="livelogo"> -->
+           <p class="sign_inp">Sign in</p>
+       </div>
+       <div class="sign_up" onclick="myfunction2()" ondblclick="myfunction22()">
+         <!-- <img src="live.png" alt="" class="livelogo"> -->
+           <p class="sign_upp">Sign up</p>
+       </div>
+    </div>
+
+
+    <div class="sign_up_left" id="sign_up">
+
+    <div class="up_fullname_div">
+    <input type="text" name="" value="" placeholder="Enter fullname" class="up_fullname">
+    </div>
+    <div class="up_email_div">
+    <input type="email" name="" value="" placeholder="Enter email id" class="up_email">
+    </div>
+    <div class="up_phone_div">
+    <input type="number" name="" value="" placeholder="Enter Phone no." class="up_phone">
+    </div>
+    <div class="up_password_div1">
+    <input type="password" name="" value="" placeholder="Create password" class="up_password_1" id="up_password">
+    <div class="up_hide" onclick="myfunction_up()"><img src="up_hide.png" alt="" id="up_hide_id" style="width:16px;"></div>
+    <div class="up_eye" onclick="myfunction_up()"><img src="up_eye.png" alt="" id="up_eye_open_id" style="width:16px;"></div>
+    </div>
+    <div class="up_password_div2">
+    <input type="password" name="" value="" placeholder="Coform password" class="up_password_2" id="up_password2">
+    <div class="up_hide" onclick="myfunction_up2()"><img src="up_hide.png" alt="" id="up_hide_id2" style="width:16px;"></div>
+    <div class="up_eye" onclick="myfunction_up2()"><img src="up_eye.png" alt="" id="up_eye_open_id2" style="width:16px;"></div>
+    </div>
+    <button type="button" name="button" class="next">Next</button>
+    <input type="checkbox" name="" value="" class="checkbox_tc">
+    <div class="checkbox_p">
+      <p class="checkbox_p_term">By clicking this you<br> agrey to our all<br> <p style="color:blue;position: absolute;top:30px;font-family:monospace;"><a href="#">Terms & Conditions.</a></p></p>
+    </div>
+    </div>
+    <div class="sign_in_left" id="sign_in">
+        <img src="important_mail.png" alt="" style="position:absolute;top:62px;left:10px;z-index:1; width:18px">
+        <img src="password_key.png" alt="" style="position:absolute;top:122px;left:10px;z-index:1; width:18px">
+    <div class="email_main">
+    <input type="email" name="" value="" placeholder="E-mail" class="email" id="email">
+    </div>
+    <div class="password_main">
+    <input type="password" name="" value="" placeholder="Password" class="password" id="myInput" >
+    <div class="hide" onclick="myfunction()"><img src="hide.png" alt="" id="hide" style="width:16px;"></div>
+    <div class="eye" onclick="myfunction()"><img src="eye_open.png" alt="" id="eye_open" style="width:16px;"></div>
+    <div class="password_show">
+      <p>( Password should contain at lest 8 character )</p>
+    </div>
+    </div>
+    <button type="button" name="button" class="in_sign_in" onclick="signin()">Sign in</button>
+    </div>
+
+   <div class="video_border">
+   <video controls class="video_1" poster="cpart1.png" autoplay>
+     <source src="kung.MP4" type="video/MP4">
+   </video>
+   <img src="thumbs_up.png" alt="" class="thumbs_up" onclick="thumbs_up()" id="thumbs_up">
+  <img src="thumbs_up1.png" alt="" class="thumbs_up1" onclick="thumbs_up1()" id="thumbs_up1">
+  <img src="thumbs_down.png" alt="" class="thumbs_down" onclick="thumbs_down()" id="thumbs_down">
+  <img src="thumbs_down1.png" alt="" class="thumbs_down1" onclick="thumbs_down1()" id="thumbs_down1">
+  <a href="https://web.whatsapp.com/"><img src="share.png" alt="" class="share"></a>
+  <img src="save.png" alt="" class="save" id="save" onclick="save()">
+  <p class="thumb_p">Part-1</p>
+  <input type="button" name="button" class="Subscribe" id="Subscribe" onclick="SubscribeC( )" value="Subscribe">
+  </div>
+  <img src="user.png" alt="" class="user">
+  <input type="text" name="" value="" placeholder="Comment ......" class="comment" id="comment_v">
+  <input type="button" name="" value="Comment" class="comment_b" id="comment" onclick="comment()">
+  <div class="comment1" id="comment1">
+
+  </div>
+   <!-- <div class="video_border_upon">
+   <div id="video_border_upon2" onclick="myvideo_border_upon1()"><img src="upon.png" alt="" class="video_border_upon_1" ></div>
+   <div class="video_border_upon_2" id="video_border_upon2"><img src="circled_play.png" alt="" ></div>
+   </div> -->
+   <div class="video_border_rigth" id="video_border_rigth">
+     <video controls class="video_2" poster="cpart2.png" autoplay>
+       <source src="kung.MP4" type="video/MP4">
+     </video>
+     <video controls class="video_3" poster="cpart3.png" autoplay>
+       <source src="kung.MP4" type="video/MP4">
+     </video>
+     <video controls class="video_4" poster="cpart4.png" autoplay>
+       <source src="kung.MP4" type="video/MP4">
+     </video>
+     <video controls class="video_5" poster="cpart5.png" autoplay>
+       <source src="kung.MP4" type="video/MP4">
+     </video>
+     <video controls class="video_6" poster="cpart6.png" autoplay>
+       <source src="kung.MP4" type="video/MP4">
+     </video>
+     <video controls class="video_7" poster="cpart7.png" autoplay>
+       <source src="kung.MP4" type="video/MP4">
+     </video>
+     <video controls class="video_8" poster="cpart8.png" autoplay>
+       <source src="kung.MP4" type="video/MP4">
+     </video>
+     <video controls class="video_9" poster="cpart9.png" autoplay>
+       <source src="kung.MP4" type="video/MP4">
+     </video>
+     <video controls class="video_10" poster="cpart10.png" autoplay>
+       <source src="kung.MP4" type="video/MP4">
+     </video>
+   </div>
+
+   <footer class="footer">
+
+   </footer>
+    <script src="nitin_video.js">
+
+    </script>
+  </body>
+</html>
+
+
+
+
+3css
+
+
+
+
+
+.upperoption{
+  /* border: 1px solid black; */
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 50px;
+  width: 100%;
+  background-color: #992B11;
+  z-index: 1;
+}
+.logo{
+  position: fixed;
+  left: 15px;
+  top: 10px;
+}
+.logoglass{
+  position: fixed;
+  left: 33px;
+  top: 30px;
+  width: 20px;
+}
+.home{
+  /* border: 1px solid black; */
+  position: fixed;
+  left: 700px;
+  top: 10px;
+  width: 100px;
+  height: 30px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.homep{
+  position: fixed;
+  left: 730px;
+  top: 8px;
+  text-align: right;
+  margin: 10px;
+  font-family: sans-serif;
+  color: white;
+  text-decoration: none;
+}
+.homelogo{
+  position: fixed;
+  left: 700px;
+  top: 5px;
+  margin: 10px;
+  width: 20px;
+}
+.video{
+  /* border: 1px solid black; */
+  position: fixed;
+  left: 805px;
+  top: 10px;
+  width: 100px;
+  height: 30px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.videop{
+  position: fixed;
+  left: 835px;
+  top: 8px;
+  text-align: right;
+  margin: 10px;
+  font-family: sans-serif;
+  color: white;
+}
+.videologo{
+  position: fixed;
+  left: 805px;
+  top: 5px;
+  margin: 10px;
+  width: 20px;
+}
+.live{
+  /* border: 1px solid black; */
+  position: fixed;
+  left: 909px;
+  top: 10px;
+  width: 100px;
+  height: 30px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.livep{
+  position: fixed;
+  left: 939px;
+  top: 8px;
+  text-align: right;
+  margin: 10px;
+  font-family: sans-serif;
+  color: white;
+}
+.livelogo{
+  position: fixed;
+  left: 909px;
+  top: 5px;
+  margin: 10px;
+  width: 20px;
+}
+.Contact{
+  position:absolute;
+   left:1012px;
+   top:10px;
+}
+.Contact_us {
+  position: fixed;
+  display: inline-block;
+  text-align: center;
+}
+.Contact_us ul{
+  list-style: none;
+}
+.Contact_us li:hover{
+
+  /* background: #313131; */
+}
+.Contact_us > ul{
+
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.Contact_us  > ul  >li
+{
+    font-family: sans-serif;
+  position:relative;
+  cursor: pointer;
+  float:left;
+  font-size: 14px;
+  width:136px ;
+  height: 30px;
+  left: 0px;
+  top:0px;
+  width: 100px;
+  line-height: 30px;
+  /* text-align: center;*/
+}
+.Contact_us_part{
+  position: absolute;
+  top :30px;
+  left:0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+.Contact_us_part li{
+  background:#992B11 ;
+  display: none;
+}
+.Contact_us_part  li:hover{
+  /* background:yellow; */
+  /* color: yellow; */
+    box-shadow: 0px 0px 20px rgba(0, 20, 0, 0.8);
+}
+.Contact_us  li:hover > .Contact_us_part li{
+  display: block;
+}
+
+
+
+.sign_in{
+  /* border: 1px solid black; */
+  position: fixed;
+  left: 1316px;
+  top: 10px;
+  width: 100px;
+  height: 30px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.sign_inp{
+  position: fixed;
+  left: 1330px;
+  top: 8px;
+  text-align: center;
+  margin: 10px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.sign_up{
+  /* border: 1px solid black; */
+  position: fixed;
+  left: 1419px;
+  top: 10px;
+  width: 100px;
+  height: 30px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.sign_upp{
+  position: fixed;
+  left: 1433px;
+  top: 8px;
+  text-align: center;
+  margin: 10px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.sign_in_left{
+  /* border: 1px solid black; */
+  position: fixed;
+  top: 50px;
+  right: 0px;
+  width: 230px;
+  height: 670px;
+  background-color: #992B11;
+  display: none;
+  z-index: 10;
+}
+.email_main{
+  position: absolute;
+  left: 15px;
+  top: 60px;
+  padding-left: 18px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: #992B11;
+  border-bottom: 1px solid white;
+  color: white;
+  outline: none;
+}
+.email{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding-left: 18px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: #992B11;
+  border-bottom: 1px solid white;
+  color: white;
+  outline: none;
+}
+.password_main{
+  position: absolute;
+  left: 15px;
+  top: 120px;
+  padding-left: 18px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: #992B11;
+  border-bottom: 1px solid white;
+  color: white;
+  text-decoration: none;
+  outline: none;
+}
+.password{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding-left: 18px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: #992B11;
+  border-bottom: 1px solid white;
+  color: white;
+  text-decoration: none;
+  outline: none;
+}
+.eye{
+  /* border: 1px solid black; */
+  position: absolute;
+  left: 170px;
+  cursor: pointer;
+}
+.hide{
+  /* border: 1px solid black; */
+  position: absolute;
+  left: 170px;
+  cursor: pointer;
+}
+.password_show{
+  position: absolute;
+  top: 12px;
+  left: 0px;
+  font-size: 13px;
+  font-family:inherit;
+}
+
+.in_sign_in{
+  position: absolute;
+  top: 200px;
+  left: 15px;
+  width: 200px;
+  height: 30px;
+  background-color: inherit;
+  border: none;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  color:  #3E3535;
+  border-radius: 5px;
+    outline: none;
+}
+.in_sign_in:hover{
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+
+.sign_up_left{
+  /* border: 1px solid black; */
+  position: fixed;
+  top: 50px;
+  right: 0px;
+  width: 230px;
+  height: 670px;
+  background-color: #992B11;
+  display: none;
+    z-index: 10;
+}
+.up_fullname_div{
+  position: absolute;
+  left: 15px;
+  top: 60px;
+  padding-left: 0px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: #992B11;
+  border-bottom: 1px solid white;
+  color: white;
+  outline: none;
+}
+.up_fullname{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding-left: 18px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid white;
+  color: #3E3535;
+  text-decoration: none;
+  outline: none;
+}
+.up_email_div{
+  position: absolute;
+  left: 15px;
+  top: 110px;
+  padding-left: 0px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: #992B11;
+  border-bottom: 1px solid white;
+  color: white;
+  outline: none;
+}
+.up_email{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding-left: 18px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid white;
+  color: #3E3535;
+  text-decoration: none;
+  outline: none;
+
+}
+.up_phone_div{
+  position: absolute;
+  left: 15px;
+  top: 160px;
+  padding-left: 0px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: #992B11;
+  border-bottom: 1px solid white;
+  color: white;
+  outline: none;
+}
+.up_phone{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding-left: 18px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid white;
+  color: #3E3535;
+  text-decoration: none;
+  outline: none;
+}
+.up_password_div1{
+  position: absolute;
+  left: 15px;
+  top: 210px;
+  padding-left: 0px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: #992B11;
+  border-bottom: 1px solid white;
+  color: white;
+  outline: none;
+}
+.up_password_1{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding-left: 18px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid white;
+  color: #3E3535;
+  text-decoration: none;
+  outline: none;
+
+}
+.up_eye{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 5px;
+  left: 175px;
+  cursor: pointer;
+}
+.up_hide{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 5px;
+  left: 175px;
+  cursor: pointer;
+}
+.up_password_div2{
+  position: absolute;
+  left: 15px;
+  top:260px;
+  padding-left: 0px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: #992B11;
+  border-bottom: 1px solid white;
+  color: white;
+  outline: none;
+}
+.up_password_2{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding-left: 18px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid white;
+  color: #3E3535;
+  text-decoration: none;
+  outline: none;
+
+}
+
+.next{
+  position: absolute;
+  top: 300px;
+  left: 15px;
+  width: 200px;
+  height: 30px;
+  background-color: inherit;
+  border: none;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  color: #3E3535;
+  border-radius: 5px;
+}
+.next:hover{
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+  color: white;
+}
+.checkbox_tc{
+  position: absolute;
+  top: 350px;
+  left: 15px;
+}
+.checkbox_p{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 338px;
+  left: 39px;
+  width: 200px;
+  height: 80px;
+
+}
+.checkbox_p_term{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-family:monospace;
+}
+
+
+
+
+
+
+.video_border{
+  border-top: 1px solid white;
+  position: fixed;
+  top:50px;
+  left: 0px;
+  width: 1100px;
+  height: 500px;
+  background-color:#992B11;
+  z-index: 10;
+}
+.video_1{
+  position: absolute;
+  left: 50px;
+  /* right: 100px; */
+  top: 20px;
+  width: 1000px;
+  height: 425px;
+  outline-color: white ;
+}
+.thumbs_up{
+  /* border: 1px solid white; */
+  border-radius: 15px;
+  /* background-color: white; */
+  position: absolute;
+  top: 470px;
+  left: 60px;
+  width: 24px;
+}
+.thumbs_down{
+  /* border: 1px solid white; */
+  border-radius: 15px;
+  /* background-color: white; */
+  position: absolute;
+  top: 470px;
+  left: 120px;
+  width: 24px;
+}
+.thumbs_up1{
+  border: 1px solid white;
+  border-radius: 15px;
+  background-color: white;
+  position: absolute;
+  top: 470px;
+  left: 60px;
+  width: 24px;
+}
+.thumbs_down1{
+  border: 1px solid white;
+  border-radius: 15px;
+  background-color: white;
+  position: absolute;
+  top: 470px;
+  left: 120px;
+  width: 24px;
+}
+.share{
+  border: 1px solid white;
+  border-radius: 15px;
+  /* background-color: white; */
+  position: absolute;
+  top: 470px;
+  left: 180px;
+  width: 24px;
+}
+.save{
+  border: 2.3px solid white;
+  border-radius: 15px;
+  position: absolute;
+  top: 470px;
+  left: 240px;
+  width: 24px;
+
+}
+.thumb_p{
+  position: absolute;
+  top:450px;
+  left: 500px;
+  color: white;
+  font-size: 20px;
+  font-family: cursive;
+}
+.Subscribe{
+  border: 1px solid white;
+  border-radius: 7px;
+  outline: none;
+  position: absolute;
+  top:470px;
+  left: 980px;
+  height: 24px;
+  background-color:  #992B11;
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); */
+  color: white;
+}
+.Subscribe:hover{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.user{
+  position: absolute;
+  top: 590px;
+  left: 10px;
+  width: 60px;
+}
+.comment{
+  border: 1px solid  #736B6B;
+  border-radius: 20px;
+  position: absolute;
+  top: 580px;
+  left: 100px;
+  width: 500px;
+  height: 50px;
+  color: #42423F;
+  padding: 10px;
+  outline: none;
+}
+
+.comment_b{
+  border: none;
+  border-radius: 10px;
+  background-color:  #992B11;
+  color: white;
+  position: absolute;
+  top: 600px;
+  left: 800px;
+  width: 100px;
+  font-size: 20px;
+  font-family: cursive;
+  outline: none;
+}
+.comment1{
+  /* border: 1px solid  #736B6B; */
+  /* border-radius: 20px; */
+  position: absolute;
+  top: 650px;
+  left: 10px;
+  width: 600px;
+  height: 1000px;
+  color: #42423F;
+  padding: 10px;
+  outline: none;
+  /* display: none; */
+}
+.comment2{
+  border-bottom: 1px solid  #736B6B;
+  /* border-radius: 20px; */
+  position: absolute;
+  top: 30px;
+  left: 120px;
+  width: 500px;
+  height: 50px;
+  color: #42423F;
+  padding: 10px;
+  outline: none;
+
+}
+.user1{
+  position: absolute;
+  top: 50px;
+  left: 10px;
+}
+
+
+
+
+
+.video_border_rigth{
+  border-left: 1px solid white;
+    border-top: 1px solid white;
+  position: absolute;
+  top:50px;
+  left: 1100px;
+  width: 418px;
+  height: 1800px;
+  background-color: #992B11;
+}
+.video_2{
+  position: absolute;
+  left: 10px;
+  /* right: 100px; */
+  top: 20px;
+  width: 400px;
+  height: 170px;
+  outline-color: white ;
+}
+.video_3{
+  position: absolute;
+  left: 10px;
+  /* right: 100px; */
+  top: 220px;
+  width: 400px;
+  height: 170px;
+  outline-color: white ;
+}
+.video_4{
+  position: absolute;
+  left: 10px;
+  /* right: 100px; */
+  top: 420px;
+  width: 400px;
+  height: 170px;
+  outline-color: white ;
+}
+.video_5{
+  position: absolute;
+  left: 10px;
+  /* right: 100px; */
+  top: 620px;
+  width: 400px;
+  height: 170px;
+  outline-color: white ;
+}
+.video_6{
+  position: absolute;
+  left: 10px;
+  /* right: 100px; */
+  top: 820px;
+  width: 400px;
+  height: 170px;
+  outline-color: white ;
+}
+
+.video_7{
+  position: absolute;
+  left: 10px;
+  /* right: 100px; */
+  top: 1020px;
+  width: 400px;
+  height: 170px;
+  outline-color: white ;
+}
+
+.video_8{
+  position: absolute;
+  left: 10px;
+  /* right: 100px; */
+  top: 1220px;
+  width: 400px;
+  height: 170px;
+  outline-color: white ;
+}
+
+.video_9{
+  position: absolute;
+  left: 10px;
+  /* right: 100px; */
+  top: 1420px;
+  width: 400px;
+  height: 170px;
+  outline-color: white ;
+}
+
+.video_10{
+  position: absolute;
+  left: 10px;
+  /* right: 100px; */
+  top: 1620px;
+  width: 400px;
+  height: 170px;
+  outline-color: white ;
+}
+
+.footer{
+  /* border: 1px solid black; */
+position: absolute;
+top: 1850px;
+left: 0px;
+right: 0px;
+height: 120px;
+background-color: #992B11;
+}
+
+
+
+
+
+
+
+3js
+
+
+
+
+
+
+
+
+
+function live(){
+  alert("First log in who ever you are !");
+}
+function myfunction(){
+  let x=document.getElementById('myInput');
+  let y=document.getElementById('eye_open');
+  let z=document.getElementById('hide');
+
+  if (x.type === 'password') {
+    x.type = "text";
+    y.style.display = "block";
+    z.style.display = "none";
+    }
+    else {
+      x.type = "password";
+      y.style.display = "none";
+      z.style.display = "block";
+    }
+}
+function myfunction1(){
+  let a=document.getElementById('sign_in');
+  let b=document.getElementById('sign_up');
+  a.style.display = "block";
+  b.style.display = "none";
+}
+function myfunction2(){
+  let a=document.getElementById('sign_in');
+  let b=document.getElementById('sign_up');
+  a.style.display = "none";
+  b.style.display = "block";
+}
+function myfunction11(){
+  let a=document.getElementById('sign_in');
+  let b=document.getElementById('sign_up');
+  a.style.display = "none";
+  b.style.display = "none";
+}
+function myfunction22(){
+  let a=document.getElementById('sign_in');
+  let b=document.getElementById('sign_up');
+  a.style.display = "none";
+  b.style.display = "none";
+}
+function myfunction_up(){
+  let p=document.getElementById('up_password');
+  let q=document.getElementById('up_eye_open_id');
+  let r=document.getElementById('up_hide_id');
+  if (p.type === 'password') {
+    p.type = "text";
+    q.style.display = "block";
+    r.style.display = "none";
+  }
+  else {
+    p.type = "password";
+    q.style.display = "none";
+    r.style.display = "block";
+  }
+}
+
+function myfunction_up2(){
+  let p=document.getElementById('up_password2');
+  let q=document.getElementById('up_eye_open_id2');
+  let r=document.getElementById('up_hide_id2');
+  if (p.type === 'password') {
+    p.type = "text";
+    q.style.display = "block";
+    r.style.display = "none";
+  }
+  else {
+    p.type = "password";
+    q.style.display = "none";
+    r.style.display = "block";
+  }
+}
+function thumbs_up(){
+  let v=document.getElementById('thumbs_up');
+  let x=document.getElementById('thumbs_up1');
+  let y=document.getElementById('thumbs_down');
+  let z=document.getElementById('thumbs_down1');
+  v.style.display= "none";
+  x.style.display= "block";
+  y.style.display= "none";
+  z.style.display= "block";
+}
+function thumbs_up1(){
+  let v=document.getElementById('thumbs_up');
+  let x=document.getElementById('thumbs_up1');
+  let y=document.getElementById('thumbs_down');
+  let z=document.getElementById('thumbs_down1');
+  v.style.display= "block";
+  x.style.display= "none";
+  y.style.display= "none";
+  z.style.display= "block";
+}
+function thumbs_down(){
+  let v=document.getElementById('thumbs_up');
+  let x=document.getElementById('thumbs_up1');
+  let y=document.getElementById('thumbs_down');
+  let z=document.getElementById('thumbs_down1');
+  v.style.display= "none";
+  x.style.display= "block";
+  y.style.display= "none";
+  z.style.display= "block";
+}
+function thumbs_down1(){
+  let v=document.getElementById('thumbs_up');
+  let x=document.getElementById('thumbs_up1');
+  let y=document.getElementById('thumbs_down');
+  let z=document.getElementById('thumbs_down1');
+  v.style.display= "none";
+  x.style.display= "block";
+  y.style.display= "block";
+  z.style.display= "none";
+}
+function save(){
+  let s=document.getElementById('save');
+  s.style.border="thin solid yellow";
+}
+function SubscribeC(){
+  let s=document.getElementById('Subscribe');
+  s.style.backgroundColor= "white";
+  s.style.color= "#992B11";
+}
+function comment(){
+  let aa=document.getElementById('comment_v').value;
+  let ab=document.getElementById('comment1');
+  ab.innerHTML= aa;
+}
+function signin(){
+  let email=document.getElementById('email').value;
+  let password=document.getElementById('myInput').value;
+  if (email == "Abhishek@123") {
+    if (password == "dulat123") {
+      alert("Hello ji Welcome to A.D ");
+    }
+    else {
+      alert("Password is incorrect ");
+    }
+  }
+  else {
+    alert("email and password is incorrect");
+  }
+}
+
+
+
+
+
+
+4cy
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>N_learning_freeindia: home</title>
+    <link rel="stylesheet" href="nitincc.css">
+    <link rel = "icon" href ="uplogo.png" type = "image/x-icon">
+    <title></title>
+  </head>
+  <body>
+    <div class="upperoption">
+     <img src="logo.png" alt="" class="logo">
+     <img src="glasseslogo.png" alt="" class="logoglass">
+     <div class="home">
+       <img src="home.png" alt="" class="homelogo">
+         <p ><a class="homep" href="nitin.html">Home</a></p>
+     </div>
+
+     <div class="live" onclick="live()">
+       <img src="live.png" alt="" class="livelogo">
+         <p class="livep">Go live</p>
+     </div>
+
+     <div class="Contact" >
+         <div class="Contact_us" >
+           <ul >
+           <li>Contact us
+             <ul class="Contact_us_part">
+               <li><img src="email.png" alt=""></li>
+               <li><img src="call.png" alt=""></li>
+               <li><img src="video_call.png" alt=""></li>
+               </ul>
+             </li>
+       </div>
+    </div>
+       <div class="sign_in" ondblclick="myfunction11()"  onclick="myfunction1()">
+         <!-- <img src="live.png" alt="" class="livelogo"> -->
+           <p class="sign_inp"   onclick="head_cyber()"  ondblclick="head_cyber2()" >Sign in</p>
+       </div>
+       <div class="sign_up" onclick="myfunction2()" ondblclick="myfunction22()">
+         <!-- <img src="live.png" alt="" class="livelogo"> -->
+           <p class="sign_upp"  onclick="head_cyber()" ondblclick="head_cyber2()">Sign up</p>
+       </div>
+    </div>
+
+
+    <div class="sign_up_left" id="sign_up">
+
+    <div class="up_fullname_div">
+    <input type="text" name="" value="" placeholder="Enter fullname" class="up_fullname">
+    </div>
+    <div class="up_email_div">
+    <input type="email" name="" value="" placeholder="Enter email id" class="up_email">
+    </div>
+    <div class="up_phone_div">
+    <input type="number" name="" value="" placeholder="Enter Phone no." class="up_phone">
+    </div>
+    <div class="up_password_div1">
+    <input type="password" name="" value="" placeholder="Create password" class="up_password_1" id="up_password">
+    <div class="up_hide" onclick="myfunction_up()"><img src="up_hide.png" alt="" id="up_hide_id" style="width:16px;"></div>
+    <div class="up_eye" onclick="myfunction_up()"><img src="up_eye.png" alt="" id="up_eye_open_id" style="width:16px;"></div>
+    </div>
+    <div class="up_password_div2">
+    <input type="password" name="" value="" placeholder="Coform password" class="up_password_2" id="up_password2">
+    <div class="up_hide" onclick="myfunction_up2()"><img src="up_hide.png" alt="" id="up_hide_id2" style="width:16px;"></div>
+    <div class="up_eye" onclick="myfunction_up2()"><img src="up_eye.png" alt="" id="up_eye_open_id2" style="width:16px;"></div>
+    </div>
+    <button type="button" name="button" class="next">Next</button>
+    <input type="checkbox" name="" value="" class="checkbox_tc">
+    <div class="checkbox_p">
+      <p class="checkbox_p_term">By clicking this you<br> agrey to our all<br> <p style="color:blue;position: absolute;top:30px;font-family:monospace;"><a href="#">Terms & Conditions.</a></p></p>
+    </div>
+    </div>
+    <div class="sign_in_left" id="sign_in">
+        <img src="important_mail.png" alt="" style="position:absolute;top:62px;left:10px;z-index:1; width:18px">
+        <img src="password_key.png" alt="" style="position:absolute;top:122px;left:10px;z-index:1; width:18px">
+    <div class="email_main">
+    <input type="email" name="" value="" placeholder="E-mail" class="email" id="email">
+    </div>
+    <div class="password_main">
+    <input type="password" name="" value="" placeholder="Password" class="password" id="myInput" >
+    <div class="hide" onclick="myfunction()"><img src="hide.png" alt="" id="hide" style="width:16px;"></div>
+    <div class="eye" onclick="myfunction()"><img src="eye_open.png" alt="" id="eye_open" style="width:16px;"></div>
+    <div class="password_show">
+      <p>( Password should contain at lest 8 character )</p>
+    </div>
+    </div>
+    <button type="button" name="button" class="in_sign_in" onclick="signin()">Sign in</button>
+    </div>
+
+<div class="head_cyber" id="head_cyber_h">
+
+      <p class="head_cyberh">Cyber security</p>
+      <div class="video" href="nitin_video.html" style="position:absolute;left:950px;margin-top:50px;width:150px;height:50px;">
+      <a href="nitin_video.html"><img src="video_p.png" alt="" class="videologo"  style="position:absolute;left:10px;margin-top:0px;color:#992B11;width:50px;"></a>
+        <a class="videop" style="position:absolute;left:70px;margin-top:10px;color:#992B11;text-decoration:none;font-family: cursive;font-size:20px;"  href="nitin_video.html">video</a>
+    </div>
+      <p class="head_cybersh"><b>Syllabus: </b></p>
+      <p class="head_cyber1">
+      <b> Unit 1: Introduction to Cyber Security</b> <br>
+Overview of Cyber Security, Internet Governance – Challenges and Constraints, Cyber Threats:- Cyber Warfare-Cyber Crime-Cyber terrorism-Cyber Espionage,<br> Need for a Comprehensive Cyber Security Policy, Need for a Nodal Authority, Need for an International convention on Cyberspace.
+      </p>
+       <p class="head_cyber2">
+      <b>  Unit 2: Cyber Security Vulnerabilities and Cyber Security Safeguards</b><br>
+Cyber Security Vulnerabilities-Overview, vulnerabilities in software, System administration, Complex Network Architectures, Open Access to Organizational Data,<br> Weak Authentication, Unprotected Broadband communications, Poor Cyber Security Awareness. Cyber Security Safeguards- Overview, Access control, Audit,<br> Authentication, Biometrics, Cryptography, Deception, Denial of Service Filters, Ethical Hacking, Firewalls, Intrusion Detection Systems, Response, Scanning,<br> Security policy, Threat Management.
+      </p>
+        <p class="head_cyber3">
+        <b>  Unit 3: Securing Web Application, Services and Servers</b><br>
+Introduction, Basic security for HTTP Applications and Services, Basic Security for SOAP Services, Identity Management and Web Services, Authorization<br> Patterns, Security Considerations, Challenges.
+        </p>
+       <p class="head_cyber4">
+          <b>Unit 4: Intrusion Detection and Prevention</b><br>
+Intrusion, Physical Theft, Abuse of Privileges, Unauthorized Access by Outsider, Malware infection, Intrusion detection and Prevention Techniques, Anti-Malware<br> software, Network based Intrusion detection Systems, Network based Intrusion Prevention Systems, Host based Intrusion prevention Systems, Security <br>Information Management, Network Session Analysis, System Integrity Validation.
+        </p>
+          <p class="head_cyber5">
+          <b>  Unit 5: Cryptography and Network Security</b><br>
+Introduction to Cryptography, Symmetric key Cryptography, Asymmetric key Cryptography, Message Authentication, Digital Signatures, Applications of <br>Cryptography. Overview of Firewalls- Types of Firewalls, User Management, VPN Security Security Protocols: - security at the Application Layer- PGP and S/MIME,<br> Security at Transport Layer- SSL and TLS, Security at Network Layer-IPSec.
+          </p>
+          <p class="head_cyber6">
+          <b>  Unit 6: Cyberspace and the Law</b><br>
+Introduction, Cyber Security Regulations, Roles of International Law, the state and Private Sector in Cyberspace, Cyber Security Standards. The INDIAN<br> Cyberspace, National Cyber Security Policy 2013.
+          </p>
+          <p class="head_cyber7">
+          <b>  Unit 7: Cyber Forensics</b><br>
+Introduction to Cyber Forensics, Handling Preliminary Investigations, Controlling an Investigation, Conducting disk-based analysis, Investigating Information-hiding,<br> Scrutinizing E-mail, Validating E-mail header information, Tracing Internet access, Tracing memory in real-time.
+          </p>
+
+</div>
+    <footer class="footer">
+
+    </footer>
+
+
+    <script src="nitincc.js">
+
+    </script>
+  </body>
+</html>
+
+
+
+
+4css
+
+
+
+
+
+.upperoption{
+  /* border: 1px solid black; */
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 50px;
+  width: 100%;
+  background-color: #992B11;
+  z-index: 1;
+}
+.logo{
+  position: fixed;
+  left: 15px;
+  top: 10px;
+}
+.logoglass{
+  position: fixed;
+  left: 33px;
+  top: 30px;
+  width: 20px;
+}
+.home{
+  /* border: 1px solid black; */
+  position: fixed;
+  left: 700px;
+  top: 10px;
+  width: 100px;
+  height: 30px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.homep{
+  position: fixed;
+  left: 730px;
+  top: 8px;
+  text-align: right;
+  margin: 10px;
+  font-family: sans-serif;
+  color: white;
+  text-decoration: none;
+}
+.homelogo{
+  position: fixed;
+  left: 700px;
+  top: 5px;
+  margin: 10px;
+  width: 20px;
+}
+/* .video{
+  border: 1px solid black;
+  position: fixed;
+  left: 805px;
+  top: 10px;
+  width: 100px;
+  height: 30px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.videop{
+  position: fixed;
+  left: 835px;
+  top: 8px;
+  text-align: right;
+  margin: 10px;
+  font-family: sans-serif;
+  color: white;
+  text-decoration: none;
+  outline: none;
+}
+.videologo{
+  position: fixed;
+  left: 805px;
+  top: 5px;
+  margin: 10px;
+  width: 20px;
+} */
+.live{
+  /* border: 1px solid black; */
+  position: fixed;
+  left: 809px;
+  top: 10px;
+  width: 100px;
+  height: 30px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.livep{
+  position: fixed;
+  left: 839px;
+  top: 8px;
+  text-align: right;
+  margin: 10px;
+  font-family: sans-serif;
+  color: white;
+}
+.livelogo{
+  position: fixed;
+  left: 809px;
+  top: 5px;
+  margin: 10px;
+  width: 20px;
+}
+.Contact{
+  position:absolute;
+   left:912px;
+   top:10px;
+}
+.Contact_us {
+  position: fixed;
+  display: inline-block;
+  text-align: center;
+}
+.Contact_us ul{
+  list-style: none;
+}
+.Contact_us li:hover{
+
+  /* background: #313131; */
+}
+.Contact_us > ul{
+
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.Contact_us  > ul  >li
+{
+    font-family: sans-serif;
+  position:relative;
+  cursor: pointer;
+  float:left;
+  font-size: 14px;
+  width:136px ;
+  height: 30px;
+  left: 0px;
+  top:0px;
+  width: 100px;
+  line-height: 30px;
+  /* text-align: center;*/
+}
+.Contact_us_part{
+  position: absolute;
+  top :30px;
+  left:0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+.Contact_us_part li{
+  background:#992B11 ;
+  display: none;
+}
+.Contact_us_part  li:hover{
+  /* background:yellow; */
+  /* color: yellow; */
+    box-shadow: 0px 0px 20px rgba(0, 20, 0, 0.8);
+}
+.Contact_us  li:hover > .Contact_us_part li{
+  display: block;
+}
+
+
+
+.sign_in{
+  /* border: 1px solid black; */
+  position: fixed;
+  left: 1316px;
+  top: 10px;
+  width: 100px;
+  height: 30px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.sign_inp{
+  position: fixed;
+  left: 1330px;
+  top: 8px;
+  text-align: center;
+  margin: 10px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.sign_up{
+  /* border: 1px solid black; */
+  position: fixed;
+  left: 1419px;
+  top: 10px;
+  width: 100px;
+  height: 30px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.sign_upp{
+  position: fixed;
+  left: 1433px;
+  top: 8px;
+  text-align: center;
+  margin: 10px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.sign_in_left{
+  /* border: 1px solid black; */
+  position: fixed;
+  top: 50px;
+  right: 0px;
+  width: 230px;
+  height: 670px;
+  background-color: #992B11;
+  display: none;
+}
+.email_main{
+  position: absolute;
+  left: 15px;
+  top: 60px;
+  padding-left: 18px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: #992B11;
+  border-bottom: 1px solid white;
+  color: white;
+  outline: none;
+}
+.email{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding-left: 18px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: #992B11;
+  border-bottom: 1px solid white;
+  color: white;
+  outline: none;
+}
+.password_main{
+  position: absolute;
+  left: 15px;
+  top: 120px;
+  padding-left: 18px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: #992B11;
+  border-bottom: 1px solid white;
+  color: white;
+  text-decoration: none;
+  outline: none;
+}
+.password{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding-left: 18px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: #992B11;
+  border-bottom: 1px solid white;
+  color: white;
+  text-decoration: none;
+  outline: none;
+}
+.eye{
+  /* border: 1px solid black; */
+  position: absolute;
+  left: 170px;
+  cursor: pointer;
+}
+.hide{
+  /* border: 1px solid black; */
+  position: absolute;
+  left: 170px;
+  cursor: pointer;
+}
+.password_show{
+  position: absolute;
+  top: 12px;
+  left: 0px;
+  font-size: 13px;
+  font-family:inherit;
+}
+
+.in_sign_in{
+  position: absolute;
+  top: 200px;
+  left: 15px;
+  width: 200px;
+  height: 30px;
+  background-color: inherit;
+  border: none;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  color:  #3E3535;
+  border-radius: 5px;
+  outline: none;
+}
+.in_sign_in:hover{
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+
+.sign_up_left{
+  /* border: 1px solid black; */
+  position: fixed;
+  top: 50px;
+  right: 0px;
+  width: 230px;
+  height: 670px;
+  background-color: #992B11;
+  display: none;
+
+}
+.up_fullname_div{
+  position: absolute;
+  left: 15px;
+  top: 60px;
+  padding-left: 0px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: #992B11;
+  border-bottom: 1px solid white;
+  color: white;
+  outline: none;
+}
+.up_fullname{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding-left: 18px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid white;
+  color: #3E3535;
+  text-decoration: none;
+  outline: none;
+}
+.up_email_div{
+  position: absolute;
+  left: 15px;
+  top: 110px;
+  padding-left: 0px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: #992B11;
+  border-bottom: 1px solid white;
+  color: white;
+  outline: none;
+}
+.up_email{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding-left: 18px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid white;
+  color: #3E3535;
+  text-decoration: none;
+  outline: none;
+
+}
+.up_phone_div{
+  position: absolute;
+  left: 15px;
+  top: 160px;
+  padding-left: 0px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: #992B11;
+  border-bottom: 1px solid white;
+  color: white;
+  outline: none;
+}
+.up_phone{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding-left: 18px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid white;
+  color: #3E3535;
+  text-decoration: none;
+  outline: none;
+}
+.up_password_div1{
+  position: absolute;
+  left: 15px;
+  top: 210px;
+  padding-left: 0px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: #992B11;
+  border-bottom: 1px solid white;
+  color: white;
+  outline: none;
+}
+.up_password_1{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding-left: 18px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid white;
+  color: #3E3535;
+  text-decoration: none;
+  outline: none;
+
+}
+.up_eye{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 5px;
+  left: 175px;
+  cursor: pointer;
+}
+.up_hide{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 5px;
+  left: 175px;
+  cursor: pointer;
+}
+.up_password_div2{
+  position: absolute;
+  left: 15px;
+  top:260px;
+  padding-left: 0px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: #992B11;
+  border-bottom: 1px solid white;
+  color: white;
+  outline: none;
+}
+.up_password_2{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding-left: 18px;
+  width: 180px;
+  height: 20px;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid white;
+  color: #3E3535;
+  text-decoration: none;
+  outline: none;
+
+}
+
+.next{
+  position: absolute;
+  top: 300px;
+  left: 15px;
+  width: 200px;
+  height: 30px;
+  background-color: inherit;
+  border: none;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  color: #3E3535;
+  border-radius: 5px;
+}
+.next:hover{
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+  color: white;
+}
+.checkbox_tc{
+  position: absolute;
+  top: 350px;
+  left: 15px;
+}
+.checkbox_p{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 338px;
+  left: 39px;
+  width: 200px;
+  height: 80px;
+
+}
+.checkbox_p_term{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-family:monospace;
+}
+.head_cyber{
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 90px;
+  left: 200px;
+  width: 1160px;
+  height: 970px;
+}
+.head_cyberh{
+    /* border: 1px solid black; */
+  position: absolute;
+  top: 0px;
+  left: 400px;
+  color: #42423F;
+  font-size: 30px;
+  font-family:cursive;
+    width: 220px;
+}
+
+.head_cybersh{
+  /* border: 1px solid black; */
+  position: absolute;
+  top:80px;
+  left: 0px;
+  color: #42423F;
+  font-size: 30px;
+  font-family:cursive;
+  width: 150px;
+}
+.head_cyber1{
+  /* border: 1px solid black; */
+  position: absolute;
+  top:160px;
+  left: 0px;
+  color: #42423F;
+  font-size: 15px;
+  font-family:cursive;
+  width: 1160px;
+  height: 100px;
+}
+.head_cyber2{
+  /* border: 1px solid black; */
+  position: absolute;
+  top:260px;
+  left: 0px;
+  color: #42423F;
+  font-size: 15px;
+  font-family:cursive;
+  width: 1160px;
+  height: 150px;
+}
+.head_cyber3{
+  /* border: 1px solid black; */
+  position: absolute;
+  top:410px;
+  left: 0px;
+  color: #42423F;
+  font-size: 15px;
+  font-family:cursive;
+  width: 1160px;
+  height: 100px;
+}
+.head_cyber4{
+  /* border: 1px solid black; */
+  position: absolute;
+  top:510px;
+  left: 0px;
+  color: #42423F;
+  font-size: 15px;
+  font-family:cursive;
+  width: 1160px;
+  height: 130px;
+}
+.head_cyber5{
+  /* border: 1px solid black; */
+  position: absolute;
+  top:640px;
+  left: 0px;
+  color: #42423F;
+  font-size: 15px;
+  font-family:cursive;
+  width: 1160px;
+  height: 130px;
+}
+.head_cyber6{
+  /* border: 1px solid black; */
+  position: absolute;
+  top:770px;
+  left: 0px;
+  color: #42423F;
+  font-size: 15px;
+  font-family:cursive;
+  width: 1160px;
+  height: 100px;
+}
+.head_cyber7{
+  /* border: 1px solid black; */
+  position: absolute;
+  top:870px;
+  left: 0px;
+  color: #42423F;
+  font-size: 15px;
+  font-family:cursive;
+  width: 1160px;
+  height: 100px;
+}
+
+
+
+
+
+.footer{
+  /* border: 1px solid black; */
+position: absolute;
+top: 1120px;
+left: 0px;
+right: 0px;
+height: 120px;
+background-color: #992B11;
+}
+
+
+
+
+
+4js
+
+
+
+
+
+
+  function live(){
+  alert("First log in who ever you are !");
+}
+function myfunction(){
+  let x=document.getElementById('myInput');
+  let y=document.getElementById('eye_open');
+  let z=document.getElementById('hide');
+
+  if (x.type === 'password') {
+    x.type = "text";
+    y.style.display = "block";
+    z.style.display = "none";
+    }
+    else {
+      x.type = "password";
+      y.style.display = "none";
+      z.style.display = "block";
+    }
+}
+function myfunction1(){
+  let a=document.getElementById('sign_in');
+  let b=document.getElementById('sign_up');
+  a.style.display = "block";
+  b.style.display = "none";
+}
+function myfunction2(){
+  let a=document.getElementById('sign_in');
+  let b=document.getElementById('sign_up');
+  a.style.display = "none";
+  b.style.display = "block";
+}
+function myfunction11(){
+  let a=document.getElementById('sign_in');
+  let b=document.getElementById('sign_up');
+  a.style.display = "none";
+  b.style.display = "none";
+}
+function myfunction22(){
+  let a=document.getElementById('sign_in');
+  let b=document.getElementById('sign_up');
+  a.style.display = "none";
+  b.style.display = "none";
+}
+function myfunction_up(){
+  let p=document.getElementById('up_password');
+  let q=document.getElementById('up_eye_open_id');
+  let r=document.getElementById('up_hide_id');
+  if (p.type === 'password') {
+    p.type = "text";
+    q.style.display = "block";
+    r.style.display = "none";
+  }
+  else {
+    p.type = "password";
+    q.style.display = "none";
+    r.style.display = "block";
+  }
+}
+
+function myfunction_up2(){
+  let p=document.getElementById('up_password2');
+  let q=document.getElementById('up_eye_open_id2');
+  let r=document.getElementById('up_hide_id2');
+  if (p.type === 'password') {
+    p.type = "text";
+    q.style.display = "block";
+    r.style.display = "none";
+  }
+  else {
+    p.type = "password";
+    q.style.display = "none";
+    r.style.display = "block";
+  }
+}
+function head_cyber(){
+  let h=document.getElementById('head_cyber_h');
+  let l=50;
+  h.style.left= l + "px";
+}
+function head_cyber2(){
+  let h=document.getElementById('head_cyber_h');
+  let l=200;
+  h.style.left= l + "px";
+}
+function signin(){
+  let email=document.getElementById('email').value;
+  let password=document.getElementById('myInput').value;
+  if (email == "") {
+    alert("Please enter your email !")
+  }
+  if (email == "Abhishek@123") {
+    if (password == "") {
+      alert("Please enter your Password !");
+    }
+    if (password == "dulat123") {
+      alert("Hello ji Welcome to A.D ");
+    }
+    else {
+      alert("Password is incorrect ");
+    }
+  }
+  else {
+    alert("email and password is incorrect");
+  }
+}
